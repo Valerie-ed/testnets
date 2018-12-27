@@ -9,15 +9,15 @@
 首先，初始化节点并创建必要的配置文件：
 
 ```
-hashgard init --name <your_custom_name> --home=<HASHGARDHOME> 
+hashgard init --moniker=${your_custom_name} --chain-id=${chain-id} --home=<HASHGARDHOME> 
 ```
 > 注意：仅支持ASCII字符--name。使用Unicode字符将使您的节点无法访问。
 
 默认的$ HASHGARDHOME是~/.hashgard，您节点的name可以稍后在~/.hashgard/config/config.toml文件中编辑：
 ```
 # A custom human readable name for this node
-moniker = "<your_custom_name>"
-external_address = "<your-public-IP>"
+moniker = "${your_custom_name}"
+external_address = "${your-public-IP}"
 
 ```
 
