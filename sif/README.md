@@ -6,7 +6,7 @@
 请关注此[文档](https://github.com/hashgard/testnets/tree/master/sif/docs_CN)
 
 ## 如何完成sif-1000励测试网任务
-尽情期待
+请按照此[文档](https://github.com/hashgard/testnets/tree/master/sif/sif-1000)完成任务
 
 ## 加入社区
 - QQ群：523156204
