@@ -37,8 +37,8 @@ addr_book_strict = false
 cd $HASHGARDHOME/config/
 rm genesis.json
 rm config.toml
-wget 
-wget
+wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-1000/config/config.toml
+wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-1000/config/genesis.json
 
 ```
 
