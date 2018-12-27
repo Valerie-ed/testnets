@@ -1,5 +1,5 @@
 # Hashgard Testnet
-> 次此为sif-1000测试网络，请务必chain-id指定sif-1000
+> 此次为sif-1000测试网络，请务必chain-id指定sif-1000
 
 ## 如何加入
 ### 步骤1：在您的服务器上安装Hashgard
