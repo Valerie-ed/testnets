@@ -4,3 +4,12 @@
 ## Testnet状态
 ## 2018年12月17日 sif-1000测试网正式启动
 我们开始了第一个公共测试网：sif-1000。
+
+
+
+
+
+## 资源
+- 浏览器：[https://www.gardplorer.io/home](https://www.gardplorer.io/home)
+- 水龙头：前往[https://www.hashgard.pro](https://www.hashgard.pro/#/)
+- 代码： [https://github.com/hashgard/hashgard](https://github.com/hashgard/hashgard)
