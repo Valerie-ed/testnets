@@ -86,6 +86,9 @@ $hashgard help
 $hashgardcli help
 ```
 
+## 方法2:下载可执行文件
+[点击前往下载](https://github.com/hashgard/hashgard/releases)
+
 
 
 
