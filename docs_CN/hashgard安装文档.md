@@ -5,7 +5,7 @@
 Hashgardnet中的所有区块链都基于Cosmos-SDK，这是一个在Golang中构建区块链应用程序的框架。建议在Linux服务器上运行验证程序节点
 
 **推荐配置：**
-- 2个CPU
+- 双核CPU
 - 内存：4GB
 - 磁盘：60GB SSD
 - 操作系统：Ubuntu 16.04 LTS
