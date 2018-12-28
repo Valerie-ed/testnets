@@ -18,13 +18,13 @@ witness exotic fantasy gaze brass zebra adapt guess drip quote space payment far
 
 ## 第2步：初始化您的节点
 ```
-iris init --home=${path_to_your_home} --chain-id=${chain-id} --moniker=${your-name}
+hashgard init --home=${path_to_your_home} --chain-id=${chain-id} --moniker=${your-name}
 
 ```
 
 ### 第3步：执行```gentx```命令
 ```
-iris gentx --name=${account_name} --home=${path_to_your_home} --ip=${your--ip}
+hashgard gentx --name=${account_name} --home=${path_to_your_home} --ip=${your--ip}
 ```
 将在以下目录中生成事务：{path_to_your_home} / config / gentx创建CreateValidator事务并通过刚刚创建的验证器操作员帐户对事务进行签名默认佣金数据为：
 	
