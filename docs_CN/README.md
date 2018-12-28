@@ -62,7 +62,7 @@ seeds = "e31e4242d8aac069193428d6bcb16b8c52f41c62@39.105.98.20:26656"
 
 ### 运行完整节点
 使用以下命令启动整个节点：
-```hashgard start --home=$HASHGARDHOME > hashgard.log```
+```hashgard start --home=$HASHGARDHOME > hashgard.log &```
 
 检查一切是否顺利进行：
 ```hashgardcli status```
