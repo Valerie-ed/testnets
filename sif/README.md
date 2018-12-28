@@ -1,5 +1,5 @@
 # Hashgard Testnet
-## Hashgardhub介绍
+## Hashgard 介绍
 一条基于cosmos的新一代数字金融公有链
 
 ## 如何加入sif-1000 testnet
