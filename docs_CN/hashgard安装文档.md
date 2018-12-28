@@ -1,6 +1,16 @@
 # hashgard安装文档 #
 采用Go语言编写，它可以在任何能够编译并运行Go语言程序的平台上工作
 
+## 配置您的服务器
+hashgardnet中的所有区块链都基于Cosmos-SDK，这是一个在Golang中构建区块链应用程序的框架。建议在Linux服务器上运行验证程序节点
+
+**推荐配置：**
+- 2个CPU
+- 内存：4GB
+- 磁盘：60GB SSD
+- 操作系统：Ubuntu 16.04 LTS
+- 允许来自TCP端口26656和26657的所有传入连接
+
 ## 方法1：源码编译安装 ##
 需要保证Go的版本在1.10以上，下载[Go 1.10+](https://golang.org/dl)
 
@@ -30,7 +40,16 @@ cd hashgard && git checkout master
 make get_tools && make get_vendor_deps && make install
 
 ```
-如果无法正常下载依赖包，请设置合适的代理，配置代理的方法如下：
+
+当完成安装之后，最后检查是否安装成功
+
+```
+$hashgard help
+$hashgardcli help
+```
+
+此外，如果无法正常下载依赖包，请设置合适的代理，配置代理的方法如下：
+
 **CentOS：**
 ```
 sudo yum install python-setuptools && easy_install pip
@@ -61,7 +80,7 @@ sudo vi /etc/shadowsocks.json
 - local_port为本地端口，一般1080，可任意
 
 
-接下来需要配置SOCKS5 代理设置：
+接下来需要配置SOCKS5 代理临时变量设置：
 ```
 export HTTP_PROXY="socks5://127.0.0.1:1080"
 export HTTPS_PROXY="socks5://127.0.0.1:1080"
@@ -79,12 +98,6 @@ sslocal -c /etc/shadowsocks.json
 
 >-c 后对应的是shadowsocks.json配置信息的路径
 
-当完成安装之后，最后检查是否安装成功
-
-```
-$hashgard help
-$hashgardcli help
-```
 
 ## 方法2:下载可执行文件
 [点击前往下载](https://github.com/hashgard/hashgard/releases)
