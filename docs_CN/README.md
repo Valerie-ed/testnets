@@ -19,7 +19,7 @@ hashgard init --moniker=${your_custom_name} --chain-id=${chain-id} --home=${HASH
 
 ### 获取配置文件
 获取配置文件
-如果您想成为genesis文件geneartion进程的一部分，请按照本指南来总结一个json文件。否则，您可以随后发送相关事务以成为验证器。
+如果您想成为genesis文件geneartion进程的一部分，请按照本[指南](https://github.com/hashgard/testnets/blob/master/docs_CN/%E5%8F%82%E4%B8%8Egenesis.md)来总结一个json文件。否则，您可以随后发送相关事务以成为验证器。
 
 生成文件生成过程完成后，请下载genesis和默认配置文件。
 ```
