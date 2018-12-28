@@ -15,21 +15,6 @@ hashgard init --moniker=${your_custom_name} --chain-id=${chain-id} --home=<HASHG
 ```
 > 注意：仅支持ASCII字符--name。使用Unicode字符将使您的节点无法访问。
 
-默认的$ HASHGARDHOME是~/.hashgard，您节点的name可以稍后在~/.hashgard/config/config.toml文件中编辑：
-```
-# A custom human readable name for this node
-moniker = "${your_custom_name}"
-external_address = "${your-public-IP}"
-
-```
-
-可选：设置addr_book_strict为false更轻松地进行对等。
-```
-addr_book_strict = false
-```
-
-您的完整节点已初始化！
-
 ### 获取配置文件
 获取配置文件
 如果您想成为genesis文件geneartion进程的一部分，请按照本指南来总结一个json文件。否则，您可以随后发送相关事务以成为验证器。
@@ -43,6 +28,20 @@ wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-1000/con
 wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-1000/config/genesis.json
 
 ```
+
+默认的$ HASHGARDHOME是~/.hashgard，您节点的name可以稍后在~/.hashgard/config/config.toml文件中编辑：
+```
+# A custom human readable name for this node
+moniker = "${your_custom_name}"
+external_address = "${your-public-IP}"
+
+```
+
+可选：设置addr_book_strict为false更轻松地进行对等。
+```
+addr_book_strict = false
+```
+
 
 ### 添加种子节点
 您的节点需要知道如何查找对等点。您需要添加健康的种子节点$HASHGARD/config/config.toml。以下是您可以使用的一些种子节点：
