@@ -35,7 +35,7 @@ wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-1000/con
 ```
 # A custom human readable name for this node
 moniker = "${your_custom_name}"
-external_address = "${your-public-IP}"
+external_address = "${your-public-IP}:26656"
 
 ```
 
@@ -46,14 +46,19 @@ addr_book_strict = false
 
 
 ### 添加种子节点
-您的节点需要知道如何查找对等点。您需要添加健康的种子节点$HASHGARD/config/config.toml。以下是您可以使用的一些种子节点：
+您的节点需要知道如何查找对等点。您需要添加健康的种子节点$HASHGARD/config/config.toml。
+以下是您可以使用的一些种子节点：
 ```
 e31e4242d8aac069193428d6bcb16b8c52f41c62@39.105.98.20:26656
 ```
-
+您可以在config.toml文件中找到次字段，填入上述的种子节点
+```
+# Comma separated list of seed nodes to connect to
+seeds = ""
+```
 同时，您可以添加一些已知的完整节点作为```Persistent Peer```。你的节点可以连接到```sentry node```的```persistent peers```。
 
-将```external_address```改成你的```public IP:26656```。
+
 
 ### 运行完整节点
 使用以下命令启动整个节点：
