@@ -44,11 +44,12 @@ external_address = "${your-public-IP}:26656"
 以下是您可以使用的一些种子节点：
 ```
 e31e4242d8aac069193428d6bcb16b8c52f41c62@39.105.98.20:26656
+aefe0e7c52ad2aadaee8153373d913b0a096b6b6@132.232.161.69:26656
 ```
 您可以在config.toml文件中找到此```seeds```字段，填入上述的种子节点
 ```
 # Comma separated list of seed nodes to connect to
-seeds = "e31e4242d8aac069193428d6bcb16b8c52f41c62@39.105.98.20:26656"
+seeds = "e31e4242d8aac069193428d6bcb16b8c52f41c62@39.105.98.20:26656,aefe0e7c52ad2aadaee8153373d913b0a096b6b6@132.232.161.69:26656"
 ```
 同时，您可以添加一些已知的完整节点作为```Persistent Peer```。你的节点可以连接到```sentry node```的```persistent peers```。
 
