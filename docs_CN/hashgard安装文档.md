@@ -1,8 +1,8 @@
-# hashgard安装文档 #
+# Hashgard安装文档 #
 采用Go语言编写，它可以在任何能够编译并运行Go语言程序的平台上工作
 
 ## 配置您的服务器
-hashgardnet中的所有区块链都基于Cosmos-SDK，这是一个在Golang中构建区块链应用程序的框架。建议在Linux服务器上运行验证程序节点
+Hashgardnet中的所有区块链都基于Cosmos-SDK，这是一个在Golang中构建区块链应用程序的框架。建议在Linux服务器上运行验证程序节点
 
 **推荐配置：**
 - 2个CPU
