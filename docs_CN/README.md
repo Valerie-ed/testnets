@@ -46,15 +46,15 @@ addr_book_strict = false
 
 
 ### 添加种子节点
-您的节点需要知道如何查找对等点。您需要添加健康的种子节点$HASHGARD/config/config.toml。
+您的节点需要知道如何查找对等点。您需要在$HASHGARD/config/config.toml添加健康的种子节点。
 以下是您可以使用的一些种子节点：
 ```
 e31e4242d8aac069193428d6bcb16b8c52f41c62@39.105.98.20:26656
 ```
-您可以在config.toml文件中找到次字段，填入上述的种子节点
+您可以在config.toml文件中找到此```seeds```字段，填入上述的种子节点
 ```
 # Comma separated list of seed nodes to connect to
-seeds = ""
+seeds = "e31e4242d8aac069193428d6bcb16b8c52f41c62@39.105.98.20:26656"
 ```
 同时，您可以添加一些已知的完整节点作为```Persistent Peer```。你的节点可以连接到```sentry node```的```persistent peers```。
 
