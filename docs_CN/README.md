@@ -1,5 +1,6 @@
 # Hashgard Testnet
 > 此次为sif-1000测试网络，请务必chain-id指定sif-1000
+> ${}代表变量可替换
 
 ## 如何加入
 ### 步骤1：在您的服务器上安装Hashgard
@@ -11,7 +12,7 @@
 首先，初始化节点并创建必要的配置文件：
 
 ```
-hashgard init --moniker=${your_custom_name} --chain-id=${chain-id} --home=<HASHGARDHOME> 
+hashgard init --moniker=${your_custom_name} --chain-id=${chain-id} --home=${HASHGARDHOME} 
 ```
 > 注意：仅支持ASCII字符--name。使用Unicode字符将使您的节点无法访问。
 
