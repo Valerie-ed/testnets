@@ -39,12 +39,6 @@ external_address = "${your-public-IP}:26656"
 
 ```
 
-可选：设置addr_book_strict为false更轻松地进行对等。
-```
-addr_book_strict = false
-```
-
-
 ### 添加种子节点
 您的节点需要知道如何查找对等点。您需要在$HASHGARD/config/config.toml添加健康的种子节点。
 以下是您可以使用的一些种子节点：
