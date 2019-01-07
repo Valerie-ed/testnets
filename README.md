@@ -5,7 +5,9 @@
 
 ## 2019年1月4日-新版本 
 发布v0.2.0,更新cosmos-sdk v0.29.0
+
 拆分LCD服务
+
 修复了无法识别分发命令的消息的错误
 
 https://github.com/hashgard/hashgard/releases/tag/v0.2.0
