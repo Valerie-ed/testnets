@@ -1,6 +1,6 @@
 # Hashgard Testnet
 ## Hashgard 介绍
-一条基于cosmos的新一代数字金融公有链
+基于cosmos的新一代数字金融公有链
 
 ## 如何加入sif-1000 testnet
 请关注此[文档](https://github.com/hashgard/testnets/tree/master/docs_CN)
