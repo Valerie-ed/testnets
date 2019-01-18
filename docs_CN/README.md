@@ -1,5 +1,5 @@
 # Hashgard Testnet
-> 此次为sif-1000测试网络，请务必chain-id指定sif-1000
+> 此次为sif-2000测试网络，请务必chain-id指定sif-2000
 
 > ${}代表变量可替换
 
@@ -26,8 +26,8 @@ hashgard init --moniker=${your_custom_name} --chain-id=${chain-id} --home=${HASH
 cd $HASHGARDHOME/config/
 rm genesis.json
 rm config.toml
-wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-1000/config/config.toml
-wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-1000/config/genesis.json
+wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-2000/config/config.toml
+wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-2000/config/genesis.json
 
 ```
 
