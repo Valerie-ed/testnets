@@ -43,8 +43,8 @@ external_address = "${your-public-IP}:26656"
 您的节点需要知道如何查找对等点。您需要在$HASHGARD/config/config.toml添加健康的种子节点。
 以下是您可以使用的一些种子节点：
 ```
-7a567a87f56bc4b446fbc1d94b7266d728ccd887@59.110.226.63:26656
-aefe0e7c52ad2aadaee8153373d913b0a096b6b6@132.232.161.69:26656
+f0a60f21f52da8785cf76f0a84495fe9d5e925d7@59.110.226.63:26656
+69b4b02abed2d66a564cd90bb5bfc9e0ff3f7edb@47.94.240.109:26656
 ```
 您可以在config.toml文件中找到此```seeds```字段，填入上述的种子节点
 ```
