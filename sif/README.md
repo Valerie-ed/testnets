@@ -8,5 +8,8 @@
 ## 如何完成sif-1000测试网激励任务
 请按照此[文档](https://github.com/hashgard/testnets/tree/master/sif/sif-1000)完成任务
 
+## sif-1000 测试网激励任务完成情况
+[点击了解](https://github.com/hashgard/testnets/issues/2) 您在这里获得了多少积分
+
 ## 加入社区
 - QQ群：523156204
