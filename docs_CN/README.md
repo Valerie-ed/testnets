@@ -19,7 +19,7 @@ hashgard init --moniker=${your_custom_name} --chain-id=${chain-id} --home=${HASH
 
 ### 获取配置文件
 获取配置文件
-如果您想成为genesis文件geneartion进程的一部分，请按照本[指南](https://github.com/hashgard/testnets/blob/master/docs_CN/%E5%8F%82%E4%B8%8Egenesis.md)来总结一个json文件。否则，您可以随后发送相关事务以成为验证器。
+如果您想成为genesis文件geneartion进程的一部分，请按照本[指南](https://github.com/hashgard/testnets/blob/master/docs_CN/%E5%8F%82%E4%B8%8Egenesis.md)来生成一个json文件。或者，您可以随后发送相关事务以成为验证器。
 
 生成文件生成过程完成后，请下载genesis和默认配置文件。
 ```
@@ -40,7 +40,7 @@ external_address = "${your-public-IP}:26656"
 ```
 
 ### 添加种子节点
-您的节点需要知道如何查找对等点。您需要在$HASHGARD/config/config.toml添加健康的种子节点。
+您的节点需要知道如何查找对等点。您需要在$HASHGARD/config/config.toml添加正常的种子节点。
 以下是您可以使用的一些种子节点：
 ```
 f0a60f21f52da8785cf76f0a84495fe9d5e925d7@59.110.226.63:26656
