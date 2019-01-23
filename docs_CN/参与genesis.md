@@ -25,7 +25,7 @@ hashgard init --home=${path_to_your_home} --chain-id=${chain-id} --moniker=${you
 hashgard gentx --name=${account_name} --home=${path_to_your_home} --ip=${your--ip}
 ```
 将在以下目录中生成事务：${HASHGARDHOME}/config/gentx 创建 CreateValidator 事务并通过刚刚创建的验证器操作员帐户对事务进行签名默认佣金数据为：
-- delegation amount: 10 GARD
+- delegation amount: 10 gard
 - commission rate: 0.1
 - commission max rate: 0.2
 - commission max change rate: 0.01
