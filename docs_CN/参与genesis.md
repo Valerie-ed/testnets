@@ -17,25 +17,32 @@ witness exotic fantasy gaze brass zebra adapt guess drip quote space payment far
 
 ## 第2步：初始化您的节点
 ```bash
-hashgard init --home=${path_to_your_home} --chain-id=${chain-id} --moniker=${your-name}
+hashgard init --chain-id=${chain_id} --moniker=${validator_node_name}
 ```
 
-### 第3步：执行```gentx```命令
+## 第3步：向 genesis.json 中添加账户信息
+
 ```bash
-hashgard gentx --name=${account_name} --home=${path_to_your_home} --ip=${your--ip}
+hashgard add-genesis-account ${account_name} ${amount}${coin}
 ```
-将在以下目录中生成事务：${HASHGARDHOME}/config/gentx 创建 CreateValidator 事务并通过刚刚创建的验证器操作员帐户对事务进行签名默认佣金数据为：
+
+## 第4步：向 genesis.json 中添加账户信息
+
+```bash
+hashgard gentx --name=${account_name} --ip=${validator_ip}
+```
+将在以下目录中生成事务：~/.hashgard/config/gentx 创建 CreateValidator 事务并通过刚刚创建的验证器操作员帐户对事务进行签名默认佣金数据为：
 - delegation amount: 10 gard
 - commission rate: 0.1
 - commission max rate: 0.2
 - commission max change rate: 0.01
 
 ```
-IP是您的公共IP，不使用内部IP
+注：${validator_ip} 是您的公网 IP 地址，不使用内部IP。
 ```
 
 
-## 第4步：提交你的gentx.json
+## 第5步：提交你的 gentx.json
 通过创建拉取请求提交您的 gentx-node-ID.json 。
 在团队收集了所有 gen-tx 事务后，我们将发布```genesis```文件。
 然后，您可以下载最终的```genesis```文件并启动一个节点。
