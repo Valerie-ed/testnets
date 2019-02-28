@@ -13,7 +13,7 @@ Hashgard 公链基于Cosmos-SDK 开发，Cosmos SDK 是使用 Go 语言开发的
 - 允许来自 TCP  26656-26657 端口的所有传入连接
 
 ## 方法1：源码编译安装 ##
-需要保证Go的版本在1.10以上，下载 [Go 1.10+](https://golang.org/dl)
+需要保证 Go 的版本在 1.11.5 以上，下载 [Go 1.11.5+](https://golang.org/dl)
 
 此外，你需要指定相关的 `$GOPATH`、`$GOBIN` 和 `$PATH` 变量, 例如:
 
