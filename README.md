@@ -3,6 +3,9 @@
 
 ## Testnet状态
 
+## 2019年3月7号 - sif-3000测试网启动
+我们公开了测试网的第三次迭代，sif-3000
+
 ## 2019年1月18日 - sif-2000测试网启动
 我们公开的的测试网第二次迭代，sif-2000
 
@@ -33,3 +36,4 @@ https://github.com/hashgard/hashgard/releases/tag/v0.2.0
 - 浏览器：[https://www.gardplorer.io/home](https://www.gardplorer.io/home)
 - 水龙头：前往[https://www.hashgard.pro](https://www.hashgard.pro/#/)
 - 代码： [https://github.com/hashgard/hashgard](https://github.com/hashgard/hashgard)
+- 教程：https://github.com/hashgard/testnets/tree/master/docs_CN
