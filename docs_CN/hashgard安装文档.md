@@ -65,6 +65,30 @@ hashgardcli help
 ```
 如果出现
 ```
-Command line interface for interacting with hashgard
+Hashgard Daemon (server)
+
+Usage:
+  hashgard [command]
+
+Available Commands:
+  start               Run the full node
+  init                Initialize genesis config, priv-validator file, p2p-node file, and application configuration files
+  collect-gentxs      Collect genesis txs and output a genesis.json file
+  testnet             Initialize files for a Hashgard testnet
+  gentx               Generate a genesis tx carrying a self delegation
+  add-genesis-account Add genesis account to genesis.json
+  validate-genesis    validates the genesis file at the default location or at the location passed as an arg
+  unsafe-reset-all    Resets the blockchain database, removes address book files, and resets priv_validator.json to the genesis state
+                      
+  tendermint          Tendermint subcommands
+                      
+  export              Export state to JSON
+                      
+  version             Print the app version
+  help                Help about any command
+
+······
+
+Use "hashgardcli [command] --help" for more information about a command.
 ```
 则表示安装成功
