@@ -104,7 +104,7 @@ hashgardcli status --indent
 ```
 
 
-当您看到 `catching_upis` 是 `false`，表示节点与testnet已经同步完成，否则表示它仍在同步。
+当您看到 `catching_up` 是 `false`，表示节点与testnet已经同步完成，否则表示它仍在同步。
 
 
 ### 步骤6：升级到Validator节点
