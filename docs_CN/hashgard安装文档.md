@@ -1,22 +1,23 @@
-# Hashgard安装文档 #
-采用Go语言编写，它可以在任何能够编译并运行Go语言程序的平台上工作
+# Hashgard 安装文档 #
+Hashgard 公链采用Go语言编写，它可以在任何能够编译并运行Go语言程序的平台上工作。
 
 ## 配置您的服务器
-Hashgardnet中的所有区块链都基于Cosmos-SDK，这是一个在Golang中构建区块链应用程序的框架。建议在Linux服务器上运行验证程序节点
+Hashgard 公链基于Cosmos-SDK 开发，Cosmos SDK 是使用 Go 语言开发的区块链应用程序的框架。建议在 Linux 服务器中运行验证程序节点。
 
 **推荐配置：**
-- 双核CPU
+
+- CPU：2Core
 - 内存：4GB
 - 磁盘：60GB SSD
 - 操作系统：Ubuntu 16.04 LTS
-- 允许来自TCP端口26656和26657的所有传入连接
+- 允许来自 TCP  26656-26657 端口的所有传入连接
 
 ## 方法1：源码编译安装 ##
-需要保证Go的版本在1.10以上，下载[Go 1.10+](https://golang.org/dl)
+需要保证 Go 的版本在 1.11.5 以上，下载 [Go 1.11.5+](https://golang.org/dl)
 
-此外，你需要指定相关的 $GOPATH, $GOBIN, 和 $PATH 变量, 例如:
+此外，你需要指定相关的 `$GOPATH`、`$GOBIN` 和 `$PATH` 变量, 例如:
 
-```
+```bash
 mkdir -p $HOME/go/bin
 echo "export GOPATH=$HOME/go" >> ~/.bash_profile
 source ~/.bash_profile
@@ -32,76 +33,34 @@ source ~/.bash_profile
 
 请将 Hashgard 项目放在指定目录，切换至 master 分支，进行安装：
 
-```
+```bash
 mkdir -p $GOPATH/src/github.com/hashgard
 cd $GOPATH/src/github.com/hashgard
 git clone https://github.com/hashgard/hashgard
 cd hashgard && git checkout master
 make get_tools && make get_vendor_deps && make install
-
 ```
 
 当完成安装之后，最后检查是否安装成功
 
-```
-$hashgard help
-$hashgardcli help
-```
-
-此外，如果无法正常下载依赖包，请设置合适的代理，配置代理的方法如下：
-
-**CentOS：**
-```
-sudo yum install python-setuptools && easy_install pip
-sudo pip install shadowsocks
+```bash
+hashgard help
+hashgardcli help
 ```
 
-配置shadowsocks的配置文件，一般放到``` /etc```下面
-```
-sudo vi /etc/shadowsocks.json
-```
-然后在shadowsocks.json里面添加配置信息:
-```
-{
-  "server":"my_server_ip",
-  "local_address": "127.0.0.1",
-  "local_port":1080,
-  "server_port":my_server_port,
-  "password":"my_password",
-  "timeout":300,
-  "method":"aes-256-cfb"
-}
-```
-- my_server_ip改为自己的服务器IP
-- my_server_port改为自己的服务器端口
-- my_server_password改为自己的密码
-- method的值改为自己的加密方式，一般是aes-256-cfb或者rc4-md5
-- local_address为本地地址
-- local_port为本地端口，一般1080，可任意
-
-
-接下来需要配置SOCKS5 代理临时变量设置：
-```
-export HTTP_PROXY="socks5://127.0.0.1:1080"
-export HTTPS_PROXY="socks5://127.0.0.1:1080"
-```
->socks5://127.0.0.1:1080对应的ip和端口就是在shadowsocks.json中设置的ip和端口
-
-检查是否配置成功：
-```
-echo $HTTP_PROXY
-```
-启动shadowsocks客户端：
-```
-sslocal -c /etc/shadowsocks.json 
-```
-
->-c 后对应的是shadowsocks.json配置信息的路径
-
-
-## 方法2:下载可执行文件
-[点击前往下载](https://github.com/hashgard/hashgard/releases)
 
 
 
+## 方法2: 下载可执行文件
+从 github [下载](https://github.com/hashgard/hashgard/releases) 您的操作系统所对应的版本，并解压 hashgard、hashgardcli 到对应的目录下：
+
+- Linux：/usr/local/bin
+- Windows: C:\windows\system32\
+
+当完成解压之后，可在 CMD 中检查是否安装成功
+
+```bash
+hashgard help
+hashgardcli help
+```
 
