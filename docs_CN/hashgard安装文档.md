@@ -1,5 +1,5 @@
 # Hashgard 安装文档 #
-Hashgard 公链采用Go语言编写，它可以在任何能够编译并运行Go语言程序的平台上工作。
+Hashgard 公链采用Go语言编写，它可以在任何能够编译并运行Go语言程序的平台上工作。我们建议采用方法二，即可执行文件安装的方式安装 Hashgard 公链
 
 ## 配置您的服务器
 Hashgard 公链基于Cosmos-SDK 开发，Cosmos SDK 是使用 Go 语言开发的区块链应用程序的框架。建议在 Linux 服务器中运行验证程序节点。
@@ -50,11 +50,11 @@ hashgardcli help
 
 
 
-
 ## 方法2: 下载可执行文件
+
 从 github [下载](https://github.com/hashgard/hashgard/releases) 您的操作系统所对应的版本，并解压 hashgard、hashgardcli 到对应的目录下：
 
-- Linux：/usr/local/bin
+- Linux / MacOS ：/usr/local/bin
 - Windows: C:\windows\system32\
 
 当完成解压之后，可在 CMD 中检查是否安装成功
@@ -63,4 +63,8 @@ hashgardcli help
 hashgard help
 hashgardcli help
 ```
-
+如果出现
+```
+Command line interface for interacting with hashgard
+```
+则表示安装成功
