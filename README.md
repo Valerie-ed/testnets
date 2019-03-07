@@ -1,6 +1,12 @@
 # Hashgard Testnet
 包含加入Hashgardnet testnets的说明，Codename：sif。您还可以找到各种sif testnets的起源和配置文件。testnet的状态也会在这里定期更新。
 
+## 资源
+- 浏览器：[https://www.gardplorer.io/home](https://www.gardplorer.io/home)
+- 水龙头：前往[https://www.hashgard.pro](https://www.hashgard.pro/#/)
+- 代码： [https://github.com/hashgard/hashgard](https://github.com/hashgard/hashgard)
+- 教程：https://github.com/hashgard/testnets/tree/master/docs_CN
+
 ## Testnet状态
 
 ## 2019年3月7号 - sif-3000测试网启动
@@ -32,8 +38,4 @@ https://github.com/hashgard/hashgard/releases/tag/v0.2.0
 
 
 
-## 资源
-- 浏览器：[https://www.gardplorer.io/home](https://www.gardplorer.io/home)
-- 水龙头：前往[https://www.hashgard.pro](https://www.hashgard.pro/#/)
-- 代码： [https://github.com/hashgard/hashgard](https://github.com/hashgard/hashgard)
-- 教程：https://github.com/hashgard/testnets/tree/master/docs_CN
+

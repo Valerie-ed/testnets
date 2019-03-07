@@ -4,18 +4,13 @@
 > ${}代表变量可替换
 
 ## 如何加入
+
 ### 步骤1：在您的服务器上安装Hashgard
 请按照此说明在本地安装Hashgard，[hashgard安装文档](hashgard安装文档.md)。
 
-### 步骤2：设置节点
-这些说明适用于从头开始设置全新的完整节点。
+### 步骤2 创建钱包
 
-首先，初始化节点并创建必要的配置文件：
-
-```bash
-hashgard init --chain-id=sif-3000 --moniker=${your_custom_name} 
-```
-> 注意：仅支持ASCII字符--name。使用Unicode字符将使您的节点无法访问。
+如果尚未创建钱包，请按照[钱包创建文档](https://github.com/hashgard/hashgard/blob/master/docs/zh/hashgardcli/keys/add.md)创建钱包
 
 ### 步骤3：获取配置文件
 如果您想成为 geneartion 进程的一部分，请按照本[指南](参与genesis.md)来生成一个json文件。或者，您可以随后发送相关事务以成为验证人节点。
@@ -29,10 +24,11 @@ wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-3000/con
 wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-3000/config/genesis.json
 ```
 
-默认的$ HASHGARDHOME是~/.hashgard，您节点的name可以稍后在~/.hashgard/config/config.toml文件中编辑：
+默认的$ HASHGARDHOME是  `~/.hashgard`，您节点的name可以稍后在`~/.hashgard/config/config.toml`文件中编辑：
+
 ```toml
 # A custom human readable name for this node
-moniker = "${your_custom_name}"
+moniker = "${your_node_name}"
 external_address = "${your_public_ip}:26656"
 ```
 
@@ -52,6 +48,7 @@ seeds = "69b4b02abed2d66a564cd90bb5bfc9e0ff3f7edb@47.94.240.109:26656,ec04df2a4c
 同时，您可以添加一些已知的完整节点作为```Persistent Peer```。你的节点可以连接到```sentry node```的```persistent peers```。
 
 ### 步骤5：运行完整节点
+
 使用以下命令启动整个节点：
 
 ```bash
@@ -106,8 +103,8 @@ hashgardcli status --indent
 
 当您看到 `catching_up` 是 `false`，表示节点与testnet已经同步完成，否则表示它仍在同步。
 
+### 步骤6：升级到验证人( Validator )节点
 
-### 步骤6：升级到Validator节点
 您现在拥有一个活动的完整节点。下一步是什么？
 
 如果您参与了genesis文件生成过程，那么一旦完全同步，您就会成为验证人中的一员。
