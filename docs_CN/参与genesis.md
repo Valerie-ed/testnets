@@ -9,8 +9,10 @@
 ## 第2步：初始化您的节点
 
 ```bash
-hashgard init --chain-id=hashgard-0.3.1 --moniker=${your_node_name}
+hashgard init --chain-id=sif-3000 --moniker=${your_node_name}
 ```
+
+> 注：已初始化过的不用执行此步骤
 
 ## 第3步：向 genesis.json 中添加账户信息
 

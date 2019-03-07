@@ -12,7 +12,12 @@
 
 如果尚未创建钱包，请按照[钱包创建文档](https://github.com/hashgard/hashgard/blob/master/docs/zh/hashgardcli/keys/add.md)创建钱包
 
-### 步骤3：获取配置文件
+### 步骤3：初始化节点并获取配置文件
+
+初始化节点
+
+`hashgard init --chain-id=sif-3000 --moniker=${your_node_name}`
+
 如果您想成为 geneartion 进程的一部分，请按照本[指南](参与genesis.md)来生成一个json文件。或者，您可以随后发送相关事务以成为验证人节点。
 
 生成文件生成过程完成后，请下载genesis和默认配置文件。
