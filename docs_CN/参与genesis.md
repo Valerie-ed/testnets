@@ -9,7 +9,7 @@
 ## 第2步：初始化您的节点
 
 ```bash
-hashgard init --chain-id=sif-3000 --moniker=${your_node_name}
+hashgard init --chain-id=sif-3001 --moniker=${your_node_name}
 ```
 
 > 注：已初始化过的不用执行此步骤
@@ -19,7 +19,6 @@ hashgard init --chain-id=sif-3000 --moniker=${your_node_name}
 ```bash
 hashgard add-genesis-account ${your_wallet_name} 100000000gard
 ```
-
 > 注意：name仅支持ASCII字符。使用Unicode字符将使您的节点无法访问。
 
 ## 第4步：向 genesis.json 中添加账户信息
@@ -27,11 +26,12 @@ hashgard add-genesis-account ${your_wallet_name} 100000000gard
 ```bash
 hashgard gentx --name=root --amount=100000000gard --ip=${validator_ip}
 ```
-```
-注：${validator_ip} 是您的公网 IP 地址，不使用内部IP。
-```
+
+> 注意：name仅支持ASCII字符。使用Unicode字符将使您的节点无法访问。
+>
 
 将在以下目录中生成事务：~/.hashgard/config/gentx 创建 CreateValidator 事务并通过刚刚创建的验证器操作员帐户对事务进行签名默认佣金数据为：
+
 - delegation amount: 100000000 gard
 - commission rate: 0.1
 - commission max rate: 0.2

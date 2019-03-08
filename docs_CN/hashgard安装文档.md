@@ -54,7 +54,7 @@ hashgardcli help
 
 从 github [下载](https://github.com/hashgard/hashgard/releases) 您的操作系统所对应的版本，并解压 hashgard、hashgardcli 到对应的目录下：
 
-- Linux / MacOS ：/usr/local/bin
+- Linux / MacOS :/usr/local/bin
 - Windows: C:\windows\system32\
 
 当完成解压之后，可在 CMD 中检查是否安装成功

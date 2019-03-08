@@ -12,11 +12,22 @@
 
 如果尚未创建钱包，请按照[钱包创建文档](https://github.com/hashgard/hashgard/blob/master/docs/zh/hashgardcli/keys/add.md)创建钱包
 
+设置默认参数
+
+```
+# 设置默认连接节点
+hashgardcli config chain-id sif-3001
+hashgardcli config trust-node ture
+# 输出格式化
+hashgardcli config indent ture
+hashgardcli config output json
+```
+
 ### 步骤3：初始化节点并获取配置文件
 
 初始化节点
 
-`hashgard init --chain-id=sif-3000 --moniker=${your_node_name}`
+`hashgard init --chain-id=sif-3001 --moniker=${your_node_name}`
 
 如果您想成为 geneartion 进程的一部分，请按照本[指南](参与genesis.md)来生成一个json文件。或者，您可以随后发送相关事务以成为验证人节点。
 
@@ -51,6 +62,8 @@ f0a60f21f52da8785cf76f0a84495fe9d5e925d7@59.110.226.63:26656
 seeds = "69b4b02abed2d66a564cd90bb5bfc9e0ff3f7edb@47.94.240.109:26656,ec04df2a4c276eae4ca5071f734c337fba763033@106.12.132.153:26656,f0a60f21f52da8785cf76f0a84495fe9d5e925d7@59.110.226.63:26656"
 ```
 同时，您可以添加一些已知的完整节点作为```Persistent Peer```。你的节点可以连接到```sentry node```的```persistent peers```。
+
+这样接下来运转的时候，您的机器可以连上已知的完整节点。
 
 ### 步骤5：运行完整节点
 
@@ -114,12 +127,12 @@ hashgardcli status --indent
 
 如果您参与了genesis文件生成过程，那么一旦完全同步，您就会成为验证人中的一员。
 
-如果您错过了genesis文件生成过程，您仍然可以升级整个节点以成为Hashgardnet验证人，继续进入[验证器设置](开始一个验证器节点.md)。
+如果您错过了genesis文件生成过程，您仍然可以升级整个节点以成为Hashgardnet验证人，继续进入[验证人设置](开始一个验证人节点.md)。
 
 您也可以[委托](委托代币.md)，[解绑](解绑委托.md)，[再委托](重新委托.md)
 
-
 ### 步骤7：链式治理
+
 去中心化的链式，您可以在链上发起提案，也可参与到投票过程中
 
 如何发起提案？进入[发起治理提案](提交在线治理.md)
