@@ -3,7 +3,7 @@
 
 ## 资源
 - 浏览器：[https://www.gardplorer.io/home](https://www.gardplorer.io/home)
-- 水龙头：前往[https://www.hashgard.pro](https://www.hashgard.pro/#/)
+- 水龙头：https://www.hashgard.pro/#/chain/wallet
 - 代码： [https://github.com/hashgard/hashgard](https://github.com/hashgard/hashgard)
 - 教程：https://github.com/hashgard/testnets/tree/master/docs_CN
 
