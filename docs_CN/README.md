@@ -36,8 +36,8 @@ hashgardcli config output json
 cd $HASHGARDHOME/config/
 rm genesis.json
 rm config.toml
-wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-3000/config/config.toml
-wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-3000/config/genesis.json
+wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-3001/config/config.toml
+wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-3001/config/genesis.json
 ```
 
 默认的$ HASHGARDHOME是  `~/.hashgard`，您节点的name可以稍后在`~/.hashgard/config/config.toml`文件中编辑：
