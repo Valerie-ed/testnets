@@ -17,9 +17,9 @@
 ```
 # 设置默认连接节点
 hashgardcli config chain-id sif-3001
-hashgardcli config trust-node ture
+hashgardcli config trust-node true
 # 输出格式化
-hashgardcli config indent ture
+hashgardcli config indent true
 hashgardcli config output json
 ```
 
