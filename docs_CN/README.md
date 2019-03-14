@@ -1,5 +1,5 @@
 # Hashgard Testnet
-> 此次为sif-3000测试网络，请务必chain-id指定sif-3000
+> 此次为sif-3001测试网络，请务必chain-id指定sif-3001
 
 > ${}代表变量可替换
 
@@ -48,24 +48,9 @@ moniker = "${your_node_name}"
 external_address = "${your_public_ip}:26656"
 ```
 
-### 步骤4：添加种子节点
-您的节点需要知道如何查找对等点。您需要在$HASHGARD/config/config.toml添加正常的种子节点。
-以下是您可以使用的一些种子节点：
 
-```toml
-f0a60f21f52da8785cf76f0a84495fe9d5e925d7@59.110.226.63:26656
-69b4b02abed2d66a564cd90bb5bfc9e0ff3f7edb@47.94.240.109:26656
-```
-您可以在config.toml文件中找到此```seeds```字段，填入上述的种子节点
-```toml
-# Comma separated list of seed nodes to connect to
-seeds = "69b4b02abed2d66a564cd90bb5bfc9e0ff3f7edb@47.94.240.109:26656,ec04df2a4c276eae4ca5071f734c337fba763033@106.12.132.153:26656,f0a60f21f52da8785cf76f0a84495fe9d5e925d7@59.110.226.63:26656"
-```
-同时，您可以添加一些已知的完整节点作为```Persistent Peer```。你的节点可以连接到```sentry node```的```persistent peers```。
 
-这样接下来运转的时候，您的机器可以连上已知的完整节点。
-
-### 步骤5：运行完整节点
+### 步骤4：运行完整节点
 
 使用以下命令启动整个节点：
 
@@ -121,7 +106,7 @@ hashgardcli status --indent
 
 当您看到 `catching_up` 是 `false`，表示节点与testnet已经同步完成，否则表示它仍在同步。
 
-### 步骤6：升级到验证人( Validator )节点
+### 步骤5：升级到验证人( Validator )节点
 
 您现在拥有一个活动的完整节点。下一步是什么？
 
@@ -131,7 +116,7 @@ hashgardcli status --indent
 
 您也可以[委托](委托代币.md)，[解绑](解绑委托.md)，[再委托](重新委托.md)
 
-### 步骤7：链式治理
+### 步骤6：链式治理
 
 去中心化的链式，您可以在链上发起提案，也可参与到投票过程中
 
