@@ -10,8 +10,8 @@
 | 4        | 取消委托                                       | 对于您委托过的验证人，您可以通过unbond操作，指定其取消一定的您委托的股份，[unbond帮助文档](https://github.com/hashgard/hashgard/blob/master/docs/zh/hashgardcli/stake/unbond.md) | 提交此次交易tx                                               | 50       |
 | 5        | 重新委托                                       | 您可以通过redelegate操作，讲您委托的一部或者全部从一个验证人转移到另外一个验证人身上，[redelegate帮助文档](https://github.com/hashgard/hashgard/blob/master/docs/zh/hashgardcli/stake/redelegate.md) | 提交此次交易tx                                               | 50       |
 | 6        | 发起提案                                       | 您可以通过submit-proposal操作，提交治理提案，[submit-proposal帮助文档](https://github.com/hashgard/hashgard/blob/master/docs/zh/hashgardcli/gov/submit-proposal.md) | 提交此处交易tx                                               | 50       |
-| 7        | 使用多签账户转账                               | 创建三个普通账户（分别为a1、a2、a3）用这三个账户创建一个a123的多签账户，用普通账户打币至多签账户a123，用a123转账 1gard 至 gard1d0s06rave0a6xzvuw7nhz782vcty99hgunc724（至少用a1、a2、a3中的两个账户进行签名），[multisign帮助文档](https://github.com/hashgard/hashgard/blob/master/docs/zh/hashgardcli/bank/multisign.md) | 提交此次交易tx                                               | 50       |
-| 8        | 对提案进行投票                                 | 使用有余额的账户对6号提案进行投票，[query-votes帮助](https://github.com/hashgard/hashgard/blob/master/docs/zh/hashgardcli/gov/vote.md) | 提交投票账户的地址                                           |          |
+| 7        | 使用多签账户转账                               | 创建三个普通账户（分别为a1、a2、a3）用这三个账户创建一个a123的多签账户，用普通账户打币至多签账户a123，用a123转账 1gard 至 gard1d0s06rave0a6xzvuw7nhz782vcty99hgunc724（至少用a1、a2、a3中的两个账户进行签名），[multisign帮助文档](https://github.com/hashgard/hashgard/blob/master/docs/zh/hashgardcli/bank/multisign.md) | 提交此次交易tx                                               | 100      |
+| 8        | 对提案进行投票                                 | 使用有余额的账户对6号提案进行投票，[query-votes帮助](https://github.com/hashgard/hashgard/blob/master/docs/zh/hashgardcli/gov/vote.md) | 提交投票账户的地址                                           | 50       |
 
 
 
