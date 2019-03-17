@@ -140,7 +140,7 @@ Now you've complished the first incentive task, you could try more tasks accordi
 
 ## Next Steps
 
-Now you have a Hashgard Full Node. What's next?
+You have an active Hashgard Full Node now. What's next?
 
 ### Step 5: Upgrade to Validator Node
 
