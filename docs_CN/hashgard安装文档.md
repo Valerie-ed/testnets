@@ -31,8 +31,8 @@ Hashgard 公链基于 Cosmos-SDK 开发，Cosmos SDK 是使用 Go 语言开发�
 
 Golang 安装文档：
 
-1. https://golang.org/doc/install
-2. https://github.com/golang/go/wiki/Ubuntu
+1. [https://golang.org/doc/install](https://golang.org/doc/install)
+2. [https://github.com/golang/go/wiki/Ubuntu](https://github.com/golang/go/wiki/Ubuntu)
 
 此外，你需要指定运行 Go 所需的 `$GOPATH`、`$GOBIN` 和 `$PATH` 变量, 例如:
 

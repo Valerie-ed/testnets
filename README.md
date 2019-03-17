@@ -1,41 +1,19 @@
-# Hashgard Testnet
-包含加入Hashgardnet testnets的说明，Codename：sif。您还可以找到各种sif testnets的起源和配置文件。testnet的状态也会在这里定期更新。
+# Hashgard Testnets
 
-## 资源
-- 浏览器：[https://www.gardplorer.io/home](https://www.gardplorer.io/home)
-- 水龙头：https://www.hashgard.pro/#/chain/wallet
-- 代码： [https://github.com/hashgard/hashgard](https://github.com/hashgard/hashgard)
-- 教程：https://github.com/hashgard/testnets/tree/master/docs_CN
+This repo contains:
 
-## Testnet状态
+1. [Guide to Setup a Hashgard Node to Join Hashgard Testnet](./docs/README.md).
+2. Config files for joinning Hashgard testnets.
+3. [Incentive Tasks of Hashgard Testnet](./sif/sif-3001/README.md).
 
-## 2019年3月7号 - sif-3001测试网启动
-我们公开了测试网的第三次迭代，sif-3001
+Click [中文版](./README_CN.md) to view the Chinese version.
 
-## 2019年1月18日 - sif-2000测试网启动
-我们公开的的测试网第二次迭代，sif-2000
+## Other Resources
 
-## 2019年1月18日 - 新版本 
-发布v0.2.1
+- Hashgard soucecode: [github.com/hashgard/hashgard](https://github.com/hashgard/hashgard)
+- Hashgard blockchain explorer: [www.gardplorer.io](https://www.gardplorer.io/home)
+- Hashgard faucet: [www.hashgard.pro/#/chain/wallet](https://www.hashgard.pro/#/chain/wallet)
 
-https://github.com/hashgard/hashgard/releases/tag/v0.2.1
+## Testnet Changelog
 
-## 2019年1月4日 - 新版本 
-发布v0.2.0,更新cosmos-sdk v0.29.0
-
-拆分LCD服务
-
-修复了无法识别分发命令的消息的错误
-
-https://github.com/hashgard/hashgard/releases/tag/v0.2.0
-
-
-## 2018年12月17日 - sif-1000测试网正式启动
-我们开始了第一个公共测试网：sif-1000。
-
-
-
-
-
-
-
+See [Changelog](./CHANGELOG.md)
