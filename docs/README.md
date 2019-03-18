@@ -19,6 +19,7 @@ hashgardcli keys add ${your_wallet_name}
 ```
 
 Remember to write your seed phrase in a safe place after you created a wallet.
+
 It is the only way to recover your account if you ever forget your password.
 
 Check your wallets:
@@ -53,6 +54,7 @@ hashgard init --chain-id=sif-3001 --moniker=${your_node_name}
 
 If you want to run a Validator Node in Genisis period,
 you can generate a JSON file and submit it to us according to [Guide of Genesis](../docs_CN/参与genesis.md).
+
 Or you can update your node to Validator Node later by sending a `create_validator` transaction.
 
 #### 4.2: Download Genesis and Config Files
@@ -136,7 +138,7 @@ The value of `catching_up` is `false`, means the block data of your node has bee
 
 Congratulations! You've started a Hashgard Node and joined Hashgard Testnet successfully。
 
-Now you've complished the first incentive task, you could try more tasks according to [Incentive Tasks of Hashgard Testnet](./sif/sif-3001/README.md).
+Now you've complished the first incentive task, you could try more tasks according to [Incentive Tasks of SIF-3001 Testnet](./sif/sif-3001/README.md).
 
 ## Next Steps
 

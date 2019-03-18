@@ -8,6 +8,7 @@ You will install two executables according to this guide:
 ## Prepare Your VPS
 
 It is recommended to run the Hashgard Validator Node on VPS.
+
 If you run the node on your local machine, it will be jailed when your computer is hibernating or shutting down.
 
 **Recommend Configurations**
@@ -25,6 +26,7 @@ It is recommended to use `Method 2` to install hashgard if you're not familiar w
 ### 1.1 Install Golang
 
 Hashgard is based on [consmos-sdk](https://github.com/cosmos/cosmos-sdk) which is built in Golang.
+
 So it requires [Go 1.11.5+](https://golang.org/dl).
 
 Please install Golang according to the links below:
@@ -81,6 +83,7 @@ hashgardcli help
 ## Method 2: Download Executables
 
 Download packages from [Github Releases](https://github.com/hashgard/hashgard/releases) according to your OS,
+
 then extract the excutables (hashgard and hashgardcli) to the specified directory:
 
 - Linux / MacOS: /usr/local/bin
