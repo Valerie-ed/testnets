@@ -53,7 +53,7 @@ hashgard init --chain-id=sif-3001 --moniker=${your_node_name}
 ```
 
 If you want to run a Validator Node in Genisis period,
-you can generate a JSON file and submit it to us according to [Guide of Genesis](../docs_CN/参与genesis.md).
+you can generate a JSON file and submit it to us according to [Guide of Genesis](../docs/genesis.md).
 
 Or you can update your node to Validator Node later by sending a `create_validator` transaction.
 
@@ -138,7 +138,7 @@ The value of `catching_up` is `false`, means the block data of your node has bee
 
 Congratulations! You've started a Hashgard Node and joined Hashgard Testnet successfully。
 
-Now you've complished the first incentive task, you could try more tasks according to [Incentive Tasks of SIF-3001 Testnet](./sif/sif-3001/README.md).
+Now you've complished the first incentive task, you could try more tasks according to [Incentive Tasks of SIF-3001 Testnet](../sif/sif-3001/README.md).
 
 ## Next Steps
 
@@ -148,16 +148,16 @@ You have an active Hashgard Full Node now. What's next?
 
 If you are involved in the genesis file generation process, then your node will be a Validator Node.
 
-If you missed it, you can upgrade your node to Validator Node according to [Create Validator](../docs_CN/创建验证人节点.md).
+If you missed it, you can upgrade your node to Validator Node according to [Create Validator](../docs/create-validator.md).
 
-You could try [Delegate](../docs_CN/委托代币.md), [Undelegate](../docs_CN/解绑委托.md), [Redelegate](../docs_CN/重新委托.md).
+You could try [Delegate](../docs/delegate.md), [Undelegate](../docs/unbond.md), [Redelegate](../docs/redelegate.md).
 
 ### Step 6: Governance of Blockchain
 
 You can submit a proposal or vote to a proposal in Hashgard testnet.
 
-How to submit a proposal? see [Submit Proposal](../docs_CN/提交在线治理.md).
+How to submit a proposal? see [Submit Proposal](../docs/submit-proposal.md).
 
-Proposal needs to be activated to vote, see [Deposit](../docs_CN/抵押存款.md) to activate a proposal.
+Proposal needs to be activated to vote, see [Deposit](../docs/deposit.md) to activate a proposal.
 
-You could [Vote](../docs_CN/提案投票.md) to an activated proposal.
+You could [Vote](../docs/vote.md) to an activated proposal.
