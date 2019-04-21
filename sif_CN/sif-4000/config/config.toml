@@ -112,10 +112,10 @@ laddr = "tcp://0.0.0.0:26656"
 external_address = ""
 
 # Comma separated list of seed nodes to connect to
-seeds = "fa9c0bfec2fc49482e33175b1e561248f95f0361@106.12.132.153:26656,143cdc7da9e22e242a800356a45921c98c5e9041@47.244.32.147:26656,2863376a18fad18c140f36a559dfe925dbd8e5f5@47.94.240.109:26656,77c1b05aec5073e1b0f8994879f1e91df9b45c6d@132.232.161.69:26656"
+seeds = ""
 
 # Comma separated list of nodes to keep persistent connections to
-persistent_peers = ""
+persistent_peers = "e392420d6c0af08968494d6d909bedf68ebbb584@106.12.132.153:26656,786838b7aa8c23e41d88114269213970bc0afdda@47.94.240.109:26656,6b11ab56d5b420fdd27204e311446a6fb4c918f2@132.232.161.69:26656"
 
 # UPNP port forwarding
 upnp = false
@@ -171,10 +171,15 @@ recheck = true
 broadcast = true
 wal_dir = ""
 
-# size of the mempool
+# Maximum number of transactions in the mempool
 size = 5000
 
-# size of the cache (used to filter transactions we saw earlier)
+# Limit the total size of all txs in the mempool.
+# This only accounts for raw transactions (e.g. given 1MB transactions and
+# max_txs_bytes=5MB, mempool will only accept 5 transactions).
+max_txs_bytes = 1073741824
+
+# Size of the cache (used to filter transactions we saw earlier) in transactions
 cache_size = 10000
 
 ##### consensus configuration options #####
