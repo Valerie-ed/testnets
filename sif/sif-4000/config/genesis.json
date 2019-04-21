@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2019-04-18T05:46:55.409009831Z",
+  "genesis_time": "2019-04-20T12:02:47.241327Z",
   "chain_id": "sif-4000",
   "consensus_params": {
     "block_size": {
@@ -19,7 +19,7 @@
   "app_state": {
     "accounts": [
       {
-        "address": "gard1e9hnnkzwlsfdgh4aczg309esug7fj064d798ue",
+        "address": "gard1cfz96pedfas5u78a8tzzkh99kgluqcwlhy7zwy",
         "coins": [
           {
             "denom": "apple",
@@ -39,7 +39,7 @@
         "end_time": "0"
       },
       {
-        "address": "gard1fhuvf0jr80pm3u2kpcs0tf9mnqlkge4y573nxr",
+        "address": "gard1m08z8taflf9m5l8smhlmav9ssv64ylfl5dejsq",
         "coins": [
           {
             "denom": "apple",
@@ -59,7 +59,7 @@
         "end_time": "0"
       },
       {
-        "address": "gard1m0g2n0r7l6s44sac2knmx40hlsdyv4es66rqhr",
+        "address": "gard17dvu8yt47mq0k0tj50rr46ke6yh4g8dz7wj92j",
         "coins": [
           {
             "denom": "apple",
@@ -79,7 +79,7 @@
         "end_time": "0"
       },
       {
-        "address": "gard19rcglx2mdxyvyttku0v3qyzlpwnvnj2h7j9n3t",
+        "address": "gard1n57g9kkrrry2tw05lnrxhspjr65ept5u2tjnqq",
         "coins": [
           {
             "denom": "apple",
@@ -103,11 +103,11 @@
         "coins": [
           {
             "denom": "apple",
-            "amount": "20000000"
+            "amount": "10000000"
           },
           {
             "denom": "gard",
-            "amount": "20000000"
+            "amount": "10000000"
           }
         ],
         "sequence_number": "0",
@@ -134,7 +134,7 @@
     },
     "staking": {
       "pool": {
-        "not_bonded_tokens": "420000000",
+        "not_bonded_tokens": "410000000",
         "bonded_tokens": "0"
       },
       "params": {
@@ -220,7 +220,9 @@
     "exchange": {
       "starting_order_id": "1"
     },
-    "issue": {},
+    "issue": {
+      "starting_issue_id": "100000000000"
+    },
     "gentxs": [
       {
         "type": "auth/StdTx",
@@ -230,7 +232,7 @@
               "type": "cosmos-sdk/MsgCreateValidator",
               "value": {
                 "description": {
-                  "moniker": "Hashgard-3",
+                  "moniker": "hashgard",
                   "identity": "",
                   "website": "",
                   "details": ""
@@ -241,12 +243,12 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "gard19rcglx2mdxyvyttku0v3qyzlpwnvnj2h7j9n3t",
-                "validator_address": "gardvaloper19rcglx2mdxyvyttku0v3qyzlpwnvnj2hvsgmpx",
+                "delegator_address": "gard17dvu8yt47mq0k0tj50rr46ke6yh4g8dz7wj92j",
+                "validator_address": "gardvaloper17dvu8yt47mq0k0tj50rr46ke6yh4g8dzvvld6l",
                 "pubkey": "gardvalconspub1zcjduepql589axx2ara4jgjsk2htxnqwwqjdvtf50fnzepg5ehaucd2nhzvqp8t2al",
                 "value": {
                   "denom": "gard",
-                  "amount": "20190418"
+                  "amount": "20190420"
                 }
               }
             }
@@ -259,12 +261,12 @@
             {
               "pub_key": {
                 "type": "tendermint/PubKeySecp256k1",
-                "value": "AyHGbCgBrg6CpbuDukybGhI+RUjF0qrIX8+L6gQ/stEv"
+                "value": "ApcGP5jQtGAjoQPPY31BI6W3MkV1/TY0f+pHa7ZVgSug"
               },
-              "signature": "aC9Pi9Tuu8zTlX3xjYWRp1zY9csLj+1T0gOl7WMwWQ4jjVzlxwH47j3SYDPgah+ovHQj5LL8izfE+8kzhrlfvw=="
+              "signature": "dJAEClXPPxUO/K5hLBjrsORR1b0un/5eY2Ax3xitfKU+gxVTcHtLFYJkQFEq+1h3xTiqmJqjqcsImaqWd+WCNQ=="
             }
           ],
-          "memo": "6b11ab56d5b420fdd27204e311446a6fb4c918f2@172.27.0.4:26656"
+          "memo": "6b11ab56d5b420fdd27204e311446a6fb4c918f2@132.232.161.69:26656"
         }
       },
       {
@@ -275,7 +277,7 @@
               "type": "cosmos-sdk/MsgCreateValidator",
               "value": {
                 "description": {
-                  "moniker": "Hashgard-2",
+                  "moniker": "hashgard",
                   "identity": "",
                   "website": "",
                   "details": ""
@@ -286,12 +288,12 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "gard1m0g2n0r7l6s44sac2knmx40hlsdyv4es66rqhr",
-                "validator_address": "gardvaloper1m0g2n0r7l6s44sac2knmx40hlsdyv4esgcwg8w",
+                "delegator_address": "gard1m08z8taflf9m5l8smhlmav9ssv64ylfl5dejsq",
+                "validator_address": "gardvaloper1m08z8taflf9m5l8smhlmav9ssv64ylflx056qd",
                 "pubkey": "gardvalconspub1zcjduepqt5zcwvnf0dudds7vvedvnm6rtxe3acxgkq7uku48g0wr3y5g7vas7avwe7",
                 "value": {
                   "denom": "gard",
-                  "amount": "20190418"
+                  "amount": "20190420"
                 }
               }
             }
@@ -304,12 +306,12 @@
             {
               "pub_key": {
                 "type": "tendermint/PubKeySecp256k1",
-                "value": "A+jUUlx0aZiUHuYHLQkb77LYlOrzfO9MTX8hB9O8eDP2"
+                "value": "AzcoIKLGMTY6xDQMRN2z1M/TBOloBDw1a7NsImFeXZS6"
               },
-              "signature": "cHGSzOxX+Tx76MtZXuadIiPu1Qv4F5WBk3cWc1626sNX9Go5DPbKn5+XleTH3I9lgNZ2EKX8P0ZH+skZASfVCg=="
+              "signature": "391KXA4i3GfCGdHwUKbjQyS7cubZA0oWpQTKsQ/lERsUoWMo/fHS4/MDdhZ6i5H8snIIUqfZYB8Y1ZfDfFaEVQ=="
             }
           ],
-          "memo": "786838b7aa8c23e41d88114269213970bc0afdda@172.17.213.175:26656"
+          "memo": "786838b7aa8c23e41d88114269213970bc0afdda@47.94.240.109:26656"
         }
       },
       {
@@ -320,7 +322,7 @@
               "type": "cosmos-sdk/MsgCreateValidator",
               "value": {
                 "description": {
-                  "moniker": "Hashgard-1",
+                  "moniker": "hashgard",
                   "identity": "",
                   "website": "",
                   "details": ""
@@ -331,12 +333,12 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "gard1fhuvf0jr80pm3u2kpcs0tf9mnqlkge4y573nxr",
-                "validator_address": "gardvaloper1fhuvf0jr80pm3u2kpcs0tf9mnqlkge4yxuumkw",
+                "delegator_address": "gard1cfz96pedfas5u78a8tzzkh99kgluqcwlhy7zwy",
+                "validator_address": "gardvaloper1cfz96pedfas5u78a8tzzkh99kgluqcwl9xn27f",
                 "pubkey": "gardvalconspub1zcjduepqq5dj3eqqdzjrnh9rvhm990jznlmsf7feuv6nfhezqj9l28en06xqtnvk53",
                 "value": {
                   "denom": "gard",
-                  "amount": "20190418"
+                  "amount": "20190420"
                 }
               }
             }
@@ -349,12 +351,12 @@
             {
               "pub_key": {
                 "type": "tendermint/PubKeySecp256k1",
-                "value": "A4o7G/Vn7XlyRybUWV64AyDJ1Enafm3K7eAaU1LgYWmy"
+                "value": "A/76nJ/erEE8Js3BsYLOwcudNm7mv+cwvr8fPkxZASLc"
               },
-              "signature": "E6lvTVw4JatjsgLzg/OJOIH7YxQebLtkX4MRGpd/hixeZgAXOy1X7uzxyPOht2QhYkv+cZPTV3jTPBqao7j9Cg=="
+              "signature": "gCoDYPKefP3yqoqaEiFY4ceLNvoWWD3Od0tOtdO/H48NUrF0aX32p04yCQTFU5+aaNgKLHQmC7pfLNEnDLp9hQ=="
             }
           ],
-          "memo": "e392420d6c0af08968494d6d909bedf68ebbb584@172.16.0.4:26656"
+          "memo": "e392420d6c0af08968494d6d909bedf68ebbb584@106.12.132.153:26656"
         }
       },
       {
@@ -365,7 +367,7 @@
               "type": "cosmos-sdk/MsgCreateValidator",
               "value": {
                 "description": {
-                  "moniker": "BKFUND",
+                  "moniker": "hashgard",
                   "identity": "",
                   "website": "",
                   "details": ""
@@ -376,12 +378,12 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "gard1e9hnnkzwlsfdgh4aczg309esug7fj064d798ue",
-                "validator_address": "gardvaloper1e9hnnkzwlsfdgh4aczg309esug7fj064lug0v5",
+                "delegator_address": "gard1n57g9kkrrry2tw05lnrxhspjr65ept5u2tjnqq",
+                "validator_address": "gardvaloper1n57g9kkrrry2tw05lnrxhspjr65ept5ucflmsd",
                 "pubkey": "gardvalconspub1zcjduepqqqs5fk385sqglklc93zzrv0wq9zn2qxdmfj4ljaf5dj7cf4xt7dqap6n7d",
                 "value": {
                   "denom": "gard",
-                  "amount": "20190418"
+                  "amount": "20190420"
                 }
               }
             }
@@ -394,12 +396,12 @@
             {
               "pub_key": {
                 "type": "tendermint/PubKeySecp256k1",
-                "value": "Ax4PzIN7igGMco8uMfnxhsd6HRgx2y2S8dt21GewpCT3"
+                "value": "AlY6tNCQxd3wXmGpBRawig+7jSrh+kHhFrZA/nzTaMqC"
               },
-              "signature": "dbgkItyAKWSNHBT/UoR5RCJoHEyqHa/pp4+2GcUt7vYdB1Y8c2iilbBUcKBF0QnEkQufQ5423zgnMwUQgXlqXw=="
+              "signature": "7a9drSohtsrgrbweeXlt+g5HZFNVSXdSjaDMkVen7m9+cGL9hPG9gX/QKafIsCac6k/qCR3Jlu3xJkw5A6iKMA=="
             }
           ],
-          "memo": "ff317455e04a80384748aac46bd631f38f8cbd3e@10.168.23.62:26656"
+          "memo": "ff317455e04a80384748aac46bd631f38f8cbd3e@101.132.118.182:26656"
         }
       }
     ]
