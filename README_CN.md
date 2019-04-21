@@ -12,7 +12,7 @@
 
 - Hashgard 源代码：[github.com/hashgard/hashgard](https://github.com/hashgard/hashgard)
 - Hashgard 区块链浏览器：[www.gardplorer.io](https://www.gardplorer.io/home)
-- Hashgard 区块链网页钱包：[https://wallet.hashgard.pro](https://wallet.hashgard.pro/)
+- Hashgard 区块链网页钱包：[wallet.hashgard.pro](https://wallet.hashgard.pro/)
 
 ## Testnet 状态更新日志
 

@@ -12,7 +12,7 @@ Click [中文版](./README_CN.md) to view the Chinese version.
 
 - Hashgard soucecode: [github.com/hashgard/hashgard](https://github.com/hashgard/hashgard)
 - Hashgard blockchain explorer: [www.gardplorer.io](https://www.gardplorer.io/home)
-- Hashgard blockchain web wallet:[https://wallet.hashgard.pro](https://wallet.hashgard.pro/)
+- Hashgard blockchain web wallet:[wallet.hashgard.pro](https://wallet.hashgard.pro/)
 
 ## Testnet Changelog
 
