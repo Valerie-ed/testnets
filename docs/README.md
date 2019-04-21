@@ -138,7 +138,7 @@ The value of `catching_up` is `false`, means the block data of your node has bee
 
 Congratulations! You've started a Hashgard Node and joined Hashgard Testnet successfully。
 
-Now you've complished the first incentive task, you could try more tasks according to [Incentive Tasks of sif-4000 Testnet](../sif/README.md).
+Now you've complished the first incentive task, you could try more tasks according to [Incentive Tasks of sif-4000 Testnet](https://github.com/hashgard/testnets/blob/master/sif/README.md).
 
 ## Next Steps
 
