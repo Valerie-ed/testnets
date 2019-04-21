@@ -112,6 +112,7 @@ laddr = "tcp://0.0.0.0:26656"
 external_address = ""
 
 # Comma separated list of seed nodes to connect to
+
 seeds = "e392420d6c0af08968494d6d909bedf68ebbb584@106.12.132.153:26656"
 
 # Comma separated list of nodes to keep persistent connections to
@@ -171,10 +172,15 @@ recheck = true
 broadcast = true
 wal_dir = ""
 
-# size of the mempool
+# Maximum number of transactions in the mempool
 size = 5000
 
-# size of the cache (used to filter transactions we saw earlier)
+# Limit the total size of all txs in the mempool.
+# This only accounts for raw transactions (e.g. given 1MB transactions and
+# max_txs_bytes=5MB, mempool will only accept 5 transactions).
+max_txs_bytes = 1073741824
+
+# Size of the cache (used to filter transactions we saw earlier) in transactions
 cache_size = 10000
 
 ##### consensus configuration options #####

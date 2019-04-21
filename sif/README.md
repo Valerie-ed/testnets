@@ -1,18 +1,20 @@
 # Hashgard Testnet
-## Hashgard 介绍
-基于cosmos的新一代数字金融公有链
+## Hashgard Introduction
 
-## 如何加入sif-4000 testnet
+A new generation of digital financial public bolckchain based on cosmos
 
-请关注此[文档](https://github.com/hashgard/testnets/tree/master/docs_CN)(https://github.com/hashgard/testnets/tree/master/docs_CN)
+## How to join sif-4000 testnet
 
-## 如何完成sif-4000测试网激励任务
+Please pay attention to this [document](https://github.com/hashgard/testnets/tree/master/docs)
 
-请按照此[文档](https://github.com/hashgard/testnets/tree/master/sif/sif-4000)完成任务
+## How to complete the sif-4000 test network task
+
+Please follow this [document](https://github.com/hashgard/testnets/tree/master/sif/sif-4000) to complete the task
 
 
 
-## 加入社区
-- QQ群：523156204
+## Join the community
+
+- QQ Group：523156204
 - Telegarm：[Hashgard testnet](https://t.me/joinchat/Gad-lBM6ne2s03toAz0WMg)
 
