@@ -69,8 +69,6 @@ wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-4000/con
 wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-4000/config/genesis.json
 ```
 
-The default value of \$HASHGARDHOME in the above command is `~/.hashgard`，
-
 #### 4.3: Modify the Config File
 
 Edit `~/.hashgard/config/config.toml`, set the value of `moniker` and `external_address`:
