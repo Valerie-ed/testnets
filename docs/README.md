@@ -62,7 +62,7 @@ Or you can update your node to Validator Node later by sending a `create_validat
 Go to the hashgard config directory, replace the genesis and config files with the downloaded testnet sif-4000 files.
 
 ```bash
-cd $HASHGARDHOME/config/
+cd ~/.hashgard/config/
 rm genesis.json
 rm config.toml
 wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-4000/config/config.toml
@@ -73,7 +73,7 @@ The default value of \$HASHGARDHOME in the above command is `~/.hashgard`，
 
 #### 4.3: Modify the Config File
 
-Edit `$HASHGARDHOME/config/config.toml`, set the value of `moniker` and `external_address`:
+Edit `~/.hashgard/config/config.toml`, set the value of `moniker` and `external_address`:
 
 ```toml
 # A custom human readable name for this node
