@@ -27,7 +27,7 @@ Hashgard 公链基于 Cosmos-SDK 开发，Cosmos SDK 是使用 Go 语言开发�
 
 ### 1.1 安装 Golang
 
-需要保证 Go 的版本在 1.11.5 以上，下载 [Go 1.11.5+](https://golang.org/dl)
+需要保证 Go 的版本在 1.12 以上，下载 [Go 1.12.3+](https://golang.org/dl)
 
 Golang 安装文档：
 
@@ -39,10 +39,8 @@ Golang 安装文档：
 ```bash
 mkdir -p $HOME/go/bin
 echo "export GOPATH=$HOME/go" >> ~/.bash_profile
-source ~/.bash_profile
-echo "export GOBIN=$GOPATH/bin" >> ~/.bash_profile
-source ~/.bash_profile
-echo "export PATH=$PATH:$GOBIN" >> ~/.bash_profile
+echo "export GOBIN=\$GOPATH/bin" >> ~/.bash_profile
+echo "export PATH=\$PATH:\$GOBIN" >> ~/.bash_profile
 source ~/.bash_profile
 ```
 
@@ -68,7 +66,7 @@ git clone https://github.com/hashgard/hashgard
 
 ```bash
 cd hashgard && git checkout master
-make get_tools && make get_vendor_deps && make install
+make get_tools && make install
 ```
 
 ### 1.4 确认是否安装成功
