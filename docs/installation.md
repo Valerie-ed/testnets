@@ -27,7 +27,7 @@ It is recommended to use `Method 2` to install hashgard if you're not familiar w
 
 Hashgard is based on [consmos-sdk](https://github.com/cosmos/cosmos-sdk) which is built in Golang.
 
-So it requires [Go 1.12+](https://golang.org/dl).
+So it requires [Go 1.11.5+](https://golang.org/dl).
 
 Please install Golang according to the links below:
 
@@ -39,8 +39,10 @@ In addition, you shold configure the `$GOPATH`, `$GOBIN` and `$PATH` ENV for Gol
 ```bash
 mkdir -p $HOME/go/bin
 echo "export GOPATH=$HOME/go" >> ~/.bash_profile
-echo "export GOBIN=\$GOPATH/bin" >> ~/.bash_profile
-echo "export PATH=\$PATH:\$GOBIN" >> ~/.bash_profile
+source ~/.bash_profile
+echo "export GOBIN=$GOPATH/bin" >> ~/.bash_profile
+source ~/.bash_profile
+echo "export PATH=$PATH:$GOBIN" >> ~/.bash_profile
 source ~/.bash_profile
 ```
 
@@ -66,7 +68,7 @@ Switch to branch master, and build：
 
 ```bash
 cd hashgard && git checkout master
-make get_tools && make install
+make get_tools && make get_vendor_deps && make install
 ```
 
 ### 1.4 Test the Executable Installation
