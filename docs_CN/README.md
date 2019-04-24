@@ -48,18 +48,16 @@ hashgard init --chain-id=sif-4000 --moniker=${your_node_name}
 进入 hashgard 的 config 文件路径，使用 sif-4000 测试网络的 genesis 和 config 文件替换掉 hashgard 初始化生成的对应文件。
 
 ```bash
-cd $HASHGARDHOME/config/
+cd ~/.hashgard/config/
 rm genesis.json
 rm config.toml
 wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-4000/config/config.toml
 wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-4000/config/genesis.json
 ```
 
-上面命令中的 \$HASHGARDHOME 默认是 `~/.hashgard`，
-
 #### 4.3: 修改配置文件
 
-编辑 `$HASHGARDHOME/config/config.toml` 文件，
+编辑 `~/.hashgard/config/config.toml` 文件，
 您需要修改其中 `moniker` 和 `external_address` 字段，
 `moniker` 是您的节点名称， `external_address` 是您的服务器外网 ip 地址：
 
@@ -126,7 +124,7 @@ hashgardcli status
 
 您现在已经成功运行了一个 Hashgard 完整节点并接入了 sif-4000 测试网。
 
-您已经完成了测试网第一个激励任务，接下来您可以根据 [激励任务说明](./sif/sif-4000/README.md) 参与后续步骤完成其它激励任务。
+您已经完成了测试网第一个激励任务，接下来您可以根据 [激励任务说明](<https://github.com/hashgard/testnets/tree/master/sif_CN/sif-4000>) 参与后续步骤完成其它激励任务。
 
 ## 后续步骤
 

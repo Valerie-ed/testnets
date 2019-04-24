@@ -68,7 +68,7 @@ Switch to branch master, and build：
 
 ```bash
 cd hashgard && git checkout master
-make get_tools && make get_vendor_deps && make install
+make get_tools && make install
 ```
 
 ### 1.4 Test the Executable Installation

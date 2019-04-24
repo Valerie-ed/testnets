@@ -40,6 +40,6 @@ hashgard gentx --name=${your_wallet_name} --amount=100000000gard --ip=${validato
 
 
 ## 第5步：提交你的 gentx.json
-通过创建拉取请求提交您的 gentx-node-ID.json 。
+通过创建拉取请求提交您的 `gentx-node-ID.json `。
 在团队收集了所有 gen-tx 事务后，我们将发布```genesis```文件。
 然后，您可以下载最终的```genesis```文件并启动一个节点。
