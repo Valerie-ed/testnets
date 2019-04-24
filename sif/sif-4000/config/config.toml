@@ -113,7 +113,7 @@ external_address = ""
 
 # Comma separated list of seed nodes to connect to
 
-seeds = "e392420d6c0af08968494d6d909bedf68ebbb584@106.12.132.153:26656"
+seeds = "47c382b8b4b71075f4f2f8b3b00a308b5880306e@139.224.11.197:26656"
 
 # Comma separated list of nodes to keep persistent connections to
 persistent_peers = ""
