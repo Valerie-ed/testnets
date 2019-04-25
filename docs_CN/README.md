@@ -126,7 +126,7 @@ hashgardcli status
 
 您现在已经成功运行了一个 Hashgard 完整节点并接入了 sif-4000 测试网。
 
-您已经完成了测试网第一个激励任务，接下来您可以根据 [激励任务说明](<https://github.com/hashgard/testnets/tree/master/sif_CN/sif-4000>) 参与后续步骤完成其它激励任务。
+您已经完成了测试网第一个激励任务，接下来您可以根据 [激励任务说明](https://github.com/hashgard/testnets/tree/master/sif_CN/sif-4000) 参与后续步骤完成其它激励任务。
 
 ## 后续步骤
 
@@ -142,7 +142,7 @@ hashgardcli status
 
 ### 步骤 6：链式治理
 
-去中心化的链式，您可以在链上发起提案，也可参与到投票过程中
+去中心化的链式治理，您可以在链上发起提案，也可参与到投票过程中
 
 如何发起提案？进入[发起治理提案](提交在线治理.md)
 
