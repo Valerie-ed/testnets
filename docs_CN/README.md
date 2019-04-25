@@ -37,7 +37,9 @@ hashgardcli config output json
 #### 4.1：初始化节点
 
 ```bash
-hashgard init --chain-id=sif-4000 --moniker=${your_node_name}
+hashgard init \
+  --chain-id=sif-4000 \
+  --moniker=${your_node_name}
 ```
 
 如果您想在 genisis 阶段成为验证人，您可以按照文档 [参与 genesis](参与genesis.md) 来生成一个 json 文件，并提交给我们。

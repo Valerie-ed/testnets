@@ -13,7 +13,9 @@ Hashgardcli gov proposal ${proposal_id} --trust-node
  If you are in the voting state, you can vote by doing the following:
 
   ```shell
-Hashgardcli gov vote ${proposal_id} ${option} --chain-id=hashgard --from hashgard
+Hashgardcli gov vote ${proposal_id} ${option} \
+    --chain-id=hashgard \
+    --from hashgard
   ```
 
 Need to specify the voting id ```${proposal_id}```, and the voting option ```${option}```, options include: 

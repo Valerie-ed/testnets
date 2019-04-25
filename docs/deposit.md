@@ -6,16 +6,17 @@
 
   ```bash
     Hashgardcli gov deposit [proposal-id] [deposit] \
-        --from=${wallet_name} --chain-id=${chain-id}
-  ```
-
-  ``` proposal-id ``` is the id number of the proposal
-
-  ``` deposit ``` is the amount of deposit required
-
-  After making the deposit, you can view the deposit details of the proposal.
-
+        --from=${wallet_name} \
+        --chain-id=${chain-id} 
+```
+  
+``` proposal-id ``` is the id number of the proposal
+  
+``` deposit ``` is the amount of deposit required
+  
+After making the deposit, you can view the deposit details of the proposal.
+  
   ```bash
-  Hashgardcli gov deposits ${proposal-id} --trust-node
+  Hashgardcli gov deposits ${proposal-id} --trust-node 
   ```
 

@@ -13,7 +13,9 @@ Please create a wallet according to [Wallet creation document](https://github.co
 ## Step 2: Initialize your node 
 
 ```bash
-hashgard init --chain-id=sif-4000 --moniker=${your_node_name}
+hashgard init \ 		
+    --chain-id=sif-4000 \
+		--moniker=${your_node_name} 
 ```
 
 > Note: Skip this step if you have already done the initialization.
@@ -33,7 +35,10 @@ Hashgard add-genesis-account ${your_wallet_name} 100000000gard
 ## Step 4: Add account information to genesis.json 
 
 ```bash
-Hashgard gentx --name=${your_wallet_name} --amount=100000000gard --ip=${validator_ip}
+Hashgard gentx \
+    --name=${your_wallet_name} \
+    --amount=100000000gard \
+    --ip=${validator_ip}
 ```
 
 > Note: name only supports ASCII characters. Using Unicode characters will make your node inaccessible.

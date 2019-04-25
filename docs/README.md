@@ -49,7 +49,9 @@ hashgardcli config output json
 #### 4.1: Initialization
 
 ```bash
-hashgard init --chain-id=sif-4000 --moniker=${your_node_name}
+hashgard init \
+  --chain-id=sif-4000 \
+  --moniker=${your_node_name}
 ```
 
 If you want to run a Validator Node in Genisis period,
