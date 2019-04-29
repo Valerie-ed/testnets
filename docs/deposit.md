@@ -18,6 +18,6 @@
 After making the deposit, you can view the deposit details of the proposal.
 
   ```bash
-  Hashgardcli gov deposits ${proposal-id}
+  hashgardcli gov deposits ${proposal-id}
   ```
 

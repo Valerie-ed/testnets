@@ -24,7 +24,7 @@ hashgard add-genesis-account ${your_wallet_name} 100000000gard
 ## 第4步：向 genesis.json 中添加账户信息
 
 ```bash
-Hashgard gentx \
+hashgard gentx \
     --name=${your_wallet_name} \
     --amount=100000000gard \
     --ip=${validator_ip}

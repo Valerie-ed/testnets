@@ -8,7 +8,7 @@
 You can submit a governance proposal by using the following command:
 
 ```bash
-Hashgardcli gov submit-proposal \
+hashgardcli gov submit-proposal \
      --title=${proposal_title} \
      --type=${typ} \
      --description=${desription} \

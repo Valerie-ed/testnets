@@ -7,7 +7,7 @@ You can increase your shares by delegating your token to a validator.
 You can view all the validator information by running the following command:
 
 ```bash
-  Hashgardcli stake validators 
+  hashgardcli stake validators 
 ```
 
 Next you can choose a validator address and delegate:
@@ -20,6 +20,6 @@ hashgardcli stake delegate ${validator_address} ${amount} \
 After delegating, you can determine if you have successfully delegated by looking at the information from the validator.
 
 ```bash
-Hashgardcli stake validator ${validator_address} 
+hashgardcli stake validator ${validator_address} 
 ```
 

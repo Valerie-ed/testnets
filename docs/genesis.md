@@ -23,7 +23,7 @@ hashgard init --moniker=${your_node_name}
 ## Step 3: Add account information to genesis.json 
 
 ```bash
-Hashgard add-genesis-account ${your_wallet_name} 100000000gard 
+hashgard add-genesis-account ${your_wallet_name} 100000000gard 
 ```
 
 > Note: name only supports ASCII characters. Using Unicode characters will make your node inaccessible.
@@ -33,7 +33,7 @@ Hashgard add-genesis-account ${your_wallet_name} 100000000gard
 ## Step 4: Add account information to genesis.json 
 
 ```bash
-Hashgard gentx \
+hashgard gentx \
     --name=${your_wallet_name} \
     --amount=100000000gard \
     --ip=${validator_ip}

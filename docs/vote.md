@@ -5,7 +5,7 @@ After the proposal is officially activated, you can vote on this proposal
  You can determine if you have entered the voting period by looking at the details of the proposal:
 
   ```bash
-Hashgardcli gov proposal ${proposal_id}
+hashgardcli gov proposal ${proposal_id}
   ```
 
  In the result, ``` proposal_status ``` is the status of this proposal.
