@@ -13,9 +13,7 @@ Please create a wallet according to [Wallet creation document](https://github.co
 ## Step 2: Initialize your node 
 
 ```bash
-hashgard init \ 		
-    --chain-id=sif-4000 \
-		--moniker=${your_node_name} 
+hashgard init --moniker=${your_node_name} 
 ```
 
 > Note: Skip this step if you have already done the initialization.

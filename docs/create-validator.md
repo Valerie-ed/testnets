@@ -1,4 +1,4 @@
-# Create Validator
+# Vote
 
 ### What is a Validator?
 
@@ -30,10 +30,7 @@ hashgardcli stake create-validator \
 	  --amount=40gard \
 	  --moniker=${your_node_name}  \
 	  --min-self-delegation=10 \
-	  --chain-id=sif-4000 \
-	  --fees=2gard \
-	  --output=json \
-	  --indent
+	  --fees=2gard 
 ```
 
 > commission parameters
@@ -51,7 +48,7 @@ hashgardcli stake create-validator \
 You can get details of your validator:
 
 ```bash
-hashgardcli stake validator ${validator-address} --trust-node
+hashgardcli stake validator ${validator-address} 
 ```
 
 You can confirm that you are in the validator set by using gardplorer:

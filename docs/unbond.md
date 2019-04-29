@@ -17,5 +17,5 @@ Hashgardcli stake unbond \
 After delegating, you can check if you have unbind successfully by checking the information in the validator.
 
 ```bash
-Hashgardcli stake validator ${validator_address} --trust-node
+Hashgardcli stake validator ${validator_address} 
 ```
