@@ -9,9 +9,7 @@
 ## 第2步：初始化您的节点
 
 ```bash
-hashgard init \
-    --chain-id=sif-4000 \
-    --moniker=${your_node_name}
+hashgard init --moniker=${your_node_name} 
 ```
 
 > 注：已初始化过的不用执行此步骤
@@ -29,7 +27,7 @@ hashgard add-genesis-account ${your_wallet_name} 100000000gard
 hashgard gentx \
     --name=${your_wallet_name} \
     --amount=100000000gard \
-    --ip=${validator_ip} 
+    --ip=${validator_ip}
 ```
 
 > 注意：name仅支持ASCII字符。使用Unicode字符将使您的节点无法访问。

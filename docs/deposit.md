@@ -5,18 +5,19 @@
   You can make a deposit for the specified proposal by doing the following:
 
   ```bash
-    Hashgardcli gov deposit [proposal-id] [deposit] \
-        --from=${wallet_name} \
-        --chain-id=${chain-id} 
-```
+   hashgardcli gov deposit  ${proposal-id} ${deposit-amount} \
+       --from=${wallet_name} 
+  ```
+
   
-``` proposal-id ``` is the id number of the proposal
-  
-``` deposit ``` is the amount of deposit required
-  
+
+` proposal-id` is the id number of the proposal
+
+` deposit-amount` is the amount of deposit required
+
 After making the deposit, you can view the deposit details of the proposal.
-  
+
   ```bash
-  Hashgardcli gov deposits ${proposal-id} --trust-node 
+  hashgardcli gov deposits ${proposal-id}
   ```
 
