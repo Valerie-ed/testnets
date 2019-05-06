@@ -14,12 +14,12 @@
 
 ### Transaction Tasks
 
-| #    | 任务名称                      | Details                                                      | Proof                 | Score |
-| ---- | ----------------------------- | ------------------------------------------------------------ | --------------------- | ----- |
-| 3    | Transfer to normal address    | Transfer 10 GARD from Wallet A to Wallet B <br />See `hashgardcli bank send --help` | Submit transaction tx | 100   |
-| 4    | Transfer to Multi-sig address | Open three normal address (named Wallet C, D and E). Open a multi-sig account CDE with Wallet C, D and E. Transfer 10 GARD to multi-sig account CDE from Wallet A. Transfer 1 GARD to  gard18p4mtd2vq297rc0dc8pkhrrjfa25p69x9gqfvx from Wallet CDE, use at least two accounts for signature among Wallet C, D and E, [Help](https://github.com/hashgard/hashgard/blob/master/docs/en/hashgardcli/bank/multisign.md) | Submit transaction tx | 300   |
-| 5    | Check transaction history     | Check multi-sig transaction history<br />See `hashgardcli tendermint tx --help` |                       |       |
-| 总计 |                               |                                                              |                       | 400   |
+| #     | Tasks                         | Details                                                      | Proof                 | Score |
+| ----- | ----------------------------- | ------------------------------------------------------------ | --------------------- | ----- |
+| 3     | Transfer to normal address    | Transfer 10 GARD from Wallet A to Wallet B <br />See `hashgardcli bank send --help` | Submit transaction tx | 100   |
+| 4     | Transfer to Multi-sig address | Open three normal address (named Wallet C, D and E). Open a multi-sig account CDE with Wallet C, D and E. Transfer 10 GARD to multi-sig account CDE from Wallet A. Transfer 1 GARD to  gard18p4mtd2vq297rc0dc8pkhrrjfa25p69x9gqfvx from Wallet CDE, use at least two accounts for signature among Wallet C, D and E, [Help](https://github.com/hashgard/hashgard/blob/master/docs/en/hashgardcli/bank/multisign.md) | Submit transaction tx | 300   |
+| 5     | Check transaction history     | Check multi-sig transaction history<br />See `hashgardcli tendermint tx --help` |                       |       |
+| Total |                               |                                                              |                       | 400   |
 
 
 
