@@ -6,11 +6,11 @@
 
 First, if you don't have an account or forget your password, you'll need to create an account for yourself as the validator.
 
-Please create a wallet according to [Wallet creation document](https://github.com/hashgard/hashgard/blob/master/docs/en/hashgardcli/keys/add.md)
-
-
-
-## Step 2: Initialize your node 
+Please create a wallet according to
+```
+hashgardcli keys add -h
+```
+## Step 2: Initialize your node
 
 ```bash
 hashgard init --moniker=${your_node_name} 
