@@ -9,7 +9,7 @@ Please pay attention to this [document](../docs/README.md)
 
 ## How to complete the sif-5000 test network task
 
-Please follow this [document](../sif/sif-5000.md) to complete the task
+Please follow this [document](../sif/sif-5000/sif-5000.md) to complete the task
 
 
 
