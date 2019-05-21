@@ -5,11 +5,11 @@ A new generation of digital financial public bolckchain based on cosmos
 
 ## How to join sif-5000 testnet
 
-Please pay attention to this [document](./docs/README.md)
+Please pay attention to this [document](../docs/README.md)
 
 ## How to complete the sif-5000 test network task
 
-Please follow this [document](./testnets/sif/sif-5000.md) to complete the task
+Please follow this [document](../sif/sif-5000.md) to complete the task
 
 
 
