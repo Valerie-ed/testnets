@@ -4,11 +4,11 @@
 
 ## 如何加入sif-5000 testnet
 
-请关注此[文档](https://github.com/hashgard/testnets/tree/master/docs_CN)
+请关注此[文档](./docs_CN/README.md)
 
 ## 如何完成sif-5000测试网激励任务
 
-请按照此[文档](./testnet/sif_CN⁩/sif-5000/)完成任务
+请按照此[文档](./sif_CN⁩/sif-5000.md)完成任务
 
 
 
