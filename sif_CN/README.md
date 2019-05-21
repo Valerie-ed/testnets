@@ -4,7 +4,7 @@
 
 ## 如何加入sif-5000 testnet
 
-请关注此[文档](./docs_CN/README.md)
+请关注此[文档](../docs_CN/README.md)
 
 ## 如何完成sif-5000测试网激励任务
 
