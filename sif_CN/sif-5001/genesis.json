@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2019-05-18T14:02:41.516673Z",
-  "chain_id": "sif-5000",
+  "genesis_time": "2019-05-22T08:57:25.039242Z",
+  "chain_id": "sif-5001",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
@@ -118,6 +118,26 @@
         "delegated_vesting": null,
         "start_time": "0",
         "end_time": "0"
+      },
+      {
+        "address": "gard17grw02uvx8rur24ysunn24rmxurvyh9n7lvlnc",
+        "coins": [
+          {
+            "denom": "agard",
+            "amount": "1000000000000000000000000"
+          },
+          {
+            "denom": "apple",
+            "amount": "1000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
       }
     ],
     "auth": {
@@ -135,7 +155,7 @@
     },
     "staking": {
       "pool": {
-        "not_bonded_tokens": "5000000000000000000000000",
+        "not_bonded_tokens": "6000000000000000000000000",
         "bonded_tokens": "0"
       },
       "params": {
@@ -245,7 +265,7 @@
               "type": "cosmos-sdk/MsgCreateValidator",
               "value": {
                 "description": {
-                  "moniker": "myname",
+                  "moniker": "nodexx",
                   "identity": "",
                   "website": "",
                   "details": ""
@@ -276,7 +296,7 @@
                 "type": "tendermint/PubKeySecp256k1",
                 "value": "A/A5SsFLxoBh+FEQ9DK5xe7IsnvNk0OC72jfnlJ3iwlT"
               },
-              "signature": "0ME6KHSjdctSJYagAZDut+bGX+k1DGlQKF4QIDAsI8R4BeuTRy10oLPXVhElwgaDXt1rB/w/ZzV031yMvy3i6A=="
+              "signature": "Dpx3z2hhPVlFt4cio5aWhsbS1jic0FhUfChaYjvTGQc+YsaXwbSmi+ET/qskRN6MDmKYXYF6Rmd/15EM0GYcUQ=="
             }
           ],
           "memo": "48fad71e6c732ff4427e678e4d8c5b9710ed439a@47.94.240.109:26656"
@@ -290,7 +310,7 @@
               "type": "cosmos-sdk/MsgCreateValidator",
               "value": {
                 "description": {
-                  "moniker": "myname",
+                  "moniker": "nodexx",
                   "identity": "",
                   "website": "",
                   "details": ""
@@ -321,7 +341,7 @@
                 "type": "tendermint/PubKeySecp256k1",
                 "value": "A49k3FXw1Hg1+oO4NQ23KTJNI7OLewL8a3iBGXel7gpv"
               },
-              "signature": "+2STVcvlHoJCc4c9kVt3ggdpU7P5GcsE7OQWd8NZ6UB0+lTiiTpbqeum8Et+bwSVPQojzNi4EnbJaVjciiOWhw=="
+              "signature": "FA3f8jHJcw3QcG35EK7na+OrZ40z64Ky0mp9eX4fyqFfKsSBO0F2K3UKBEoF6W0z5cCINeeUfnPiOZj4am/3Hg=="
             }
           ],
           "memo": "58ca820fef7edd30c123e9f510e31ee750386e4e@101.132.118.182:26656"
@@ -335,7 +355,7 @@
               "type": "cosmos-sdk/MsgCreateValidator",
               "value": {
                 "description": {
-                  "moniker": "myname",
+                  "moniker": "nodexx",
                   "identity": "",
                   "website": "",
                   "details": ""
@@ -366,7 +386,7 @@
                 "type": "tendermint/PubKeySecp256k1",
                 "value": "A5CLxq9R1tvGBSzEZyshFn9XWWJeCdJMrgOnXdcoFgeS"
               },
-              "signature": "XFvdHpowxabfsTwr+tbNB3Phd1Q3jm5P9yqzIDWC8hsl897pmL4b6Ej3DIRDsfupl+N19NfQ1MH9QOkSE4mVNA=="
+              "signature": "ofGl4kobMggVkkRdw0KiGhj5zHuYZQPoS59sSCifNL863+4YXiVA65uTEJfFvj6BAFaNzNizvtoFbEo3DY8e5Q=="
             }
           ],
           "memo": "67276047f3429bb87378db1c480b4f23a5866f86@106.12.132.153:26656"
@@ -380,7 +400,7 @@
               "type": "cosmos-sdk/MsgCreateValidator",
               "value": {
                 "description": {
-                  "moniker": "myname",
+                  "moniker": "nodexx",
                   "identity": "",
                   "website": "",
                   "details": ""
@@ -411,7 +431,7 @@
                 "type": "tendermint/PubKeySecp256k1",
                 "value": "A5ctiK1D7QQQDE/0l9ne4AuDrcKDm5xrF+RRGalKJ7WQ"
               },
-              "signature": "lyqO/so6uOLTYXu+WmZVq5kBnjscBViGB7L93XT2eromYAuiyCqvBBPo0arvH2MwSe/kv5cfoFph4iyPtuwa3w=="
+              "signature": "FQU7qxVxPJqmUVWO+j9NNYgkbkmQ6P1Na7M6aVGgvl9TnYR2uJogQt6MDR7t8xLBUeSBUQxdFZxRf8P/nCu+Kg=="
             }
           ],
           "memo": "fb3f0576bea264be31db4a363b5ece57d7d7a5f4@132.232.161.69:26656"
