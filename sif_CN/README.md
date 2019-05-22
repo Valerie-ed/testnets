@@ -2,13 +2,13 @@
 ## Hashgard 介绍
 基于cosmos的新一代数字金融公有链
 
-## 如何加入sif-4000 testnet
+## 如何加入sif-5000 testnet
 
-请关注此[文档](https://github.com/hashgard/testnets/tree/master/docs_CN)
+请关注此[文档](../docs_CN/README.md)
 
-## 如何完成sif-4000测试网激励任务
+## 如何完成sif-5000测试网激励任务
 
-请按照此[文档](https://github.com/hashgard/testnets/tree/master/sif_CN/sif-4000)完成任务
+请按照此[文档](../sif_CN/sif-5000/sif-5000.md) 完成任务
 
 
 

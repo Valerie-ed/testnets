@@ -11,6 +11,12 @@ Please read about Sentry Node Architecture to protect your node from DDOS attack
 > Before setting up your validator node, make sure you'v already created an wallet.
 >
 > And got some GARD using faucet command
+>
+> ```
+> hashgardcli faucet send [address]
+> ```
+>
+> 
 
 Your `gardvalconspub` can be used to create a new validator by staking GARD. You can find your validator pubkey by running:
 
