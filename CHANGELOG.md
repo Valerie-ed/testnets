@@ -2,9 +2,9 @@
 
 
 
-## May 20, 2019 - sif-5000 test network startup
+## May 20, 2019 - sif-5001 test network startup
 
-We published the fifth iteration of the test network, sif-5000
+We published the fifth iteration of the test network, sif-5001
 
 ## April 19, 2019 - sif-4000 test network startup
 
