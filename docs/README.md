@@ -2,7 +2,7 @@
 
 This guide is intended for someone who is looking to setup a Hashgard Node to join Hashgard Testnet.
 
-> This document is written for testnet sif-4000, make sure your chain-id is sif-4000
+> This document is written for testnet sif-5001, make sure your chain-id is sif-5001
 
 > \${} for variables, you should replace it with your own value
 
@@ -33,7 +33,7 @@ hashgardcli keys list
 Configure the default node to connect to:
 
 ```
-hashgardcli config chain-id sif-4000
+hashgardcli config chain-id sif-5001
 hashgardcli config trust-node true
 ```
 
@@ -50,7 +50,7 @@ hashgardcli config output json
 
 ```bash
 hashgard init \
-  --chain-id=sif-4000 \
+  --chain-id=sif-5001 \
   --moniker=${your_node_name}
 ```
 
@@ -61,14 +61,14 @@ Or you can update your node to Validator Node later by sending a `create_validat
 
 #### 4.2: Download Genesis and Config Files
 
-Go to the hashgard config directory, replace the genesis and config files with the downloaded testnet sif-4000 files.
+Go to the hashgard config directory, replace the genesis and config files with the downloaded testnet sif-5001 files.
 
 ```bash
 cd $HASHGARDHOME/config/
 rm genesis.json
 rm config.toml
-wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-4000/config/config.toml
-wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-4000/config/genesis.json
+wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-5001/config/config.toml
+wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-5001/config/genesis.json
 ```
 
 The default value of \$HASHGARDHOME in the above command is `~/.hashgard`，
@@ -140,7 +140,7 @@ The value of `catching_up` is `false`, means the block data of your node has bee
 
 Congratulations! You've started a Hashgard Node and joined Hashgard Testnet successfully。
 
-Now you've complished the first incentive task, you could try more tasks according to [Incentive Tasks of sif-4000 Testnet](https://github.com/hashgard/testnets/blob/master/sif/README.md).
+Now you've complished the first incentive task, you could try more tasks according to [Incentive Tasks of sif-5001 Testnet](https://github.com/hashgard/testnets/blob/master/sif/README.md).
 
 ## Next Steps
 

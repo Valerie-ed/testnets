@@ -2,9 +2,9 @@
 
 This repo contains:
 
-1. [Guide to Setup a Hashgard Node to Join Hashgard Testnet](./docs/README.md).
+1. [Guide to Setup a Hashgard Node to Join Hashgard Testnet](../docs/README.md).
 2. Config files for joinning Hashgard testnets.
-3. [Incentive Tasks of Hashgard Testnet](https://github.com/hashgard/testnets/tree/master/sif)
+3. [Incentive Tasks of Hashgard Testnet](../sif/README.md)
 
 Click [中文版](./README_CN.md) to view the Chinese version.
 

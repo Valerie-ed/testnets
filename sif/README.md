@@ -3,13 +3,13 @@
 
 A new generation of digital financial public bolckchain based on cosmos
 
-## How to join sif-4000 testnet
+## How to join sif-5001 testnet
 
-Please pay attention to this [document](https://github.com/hashgard/testnets/tree/master/docs)
+Please pay attention to this [document](../docs/README.md)
 
-## How to complete the sif-4000 test network task
+## How to complete the sif-5001 test network task
 
-Please follow this [document](https://github.com/hashgard/testnets/tree/master/sif/sif-4000) to complete the task
+Please follow this [document](../sif/sif-5001/sif-5001.md) to complete the task
 
 
 
