@@ -7,7 +7,7 @@
 First, if you don't have an account or forget your password, you'll need to create an account for yourself as the validator.
 
 Please create a wallet according to
-```
+```plain
 hashgardcli keys add -h
 ```
 ## Step 2: Initialize your node

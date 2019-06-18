@@ -10,5 +10,5 @@
   ```
   
   ```address-validator-source``` is the original validator address you need to transfer the delegation
-  ``` address-validator-dest``` is the new validator address you need to transfer to
+  `address-validator-dest` is the new validator address you need to transfer to
   

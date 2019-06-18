@@ -2,7 +2,7 @@
 
 该文档目的是介绍如何运行一个 Hashgard 节点并加入当前的测试网。
 
-> 当前为 sif-5001 测试网络，请务必指定 chain-id = sif-5001
+> 当前为 sif-6000 测试网络，请务必指定 chain-id = sif-6000
 
 > \${}代表变量，需要你手动替换成你自己设定的值
 
@@ -20,14 +20,14 @@
 
 设置 hashgardcli 命令行客户端的默认连接节点：
 
-```
-hashgardcli config chain-id sif-5001
+```plain
+hashgardcli config chain-id sif-6000
 hashgardcli config trust-node true
 ```
 
 格式化输出：
 
-```
+```plain
 hashgardcli config indent true
 hashgardcli config output json
 ```
@@ -38,23 +38,23 @@ hashgardcli config output json
 
 ```bash
 hashgard init \
-  --chain-id=sif-5001 \
+  --chain-id=sif-6000 \
   --moniker=${your_node_name}
 ```
 
-如果您想在 genisis 阶段成为验证人，您可以按照文档 [参与 genesis](参与genesis.md) 来生成一个 json 文件，并提交给我们。
+如果您想在 genisis 阶段成为验证人，您可以按照文档 [参与 genesis](genesis.md) 来生成一个 json 文件，并提交给我们。
 或者，您可以随后再发送相关交易，同样可以升级为验证人节点。
 
 #### 4.2：下载 genesis 和 config 文件
 
-进入 hashgard 的 config 文件路径，使用 sif-5001 测试网络的 genesis 和 config 文件替换掉 hashgard 初始化生成的对应文件。
+进入 hashgard 的 config 文件路径，使用 sif-6000 测试网络的 genesis 和 config 文件替换掉 hashgard 初始化生成的对应文件。
 
 ```bash
 cd ~/.hashgard/config/
 rm genesis.json
 rm config.toml
-wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-5001/config/config.toml
-wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-5001/config/genesis.json
+wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-6000/config/config.toml
+wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-6000/config/genesis.json
 ```
 
 #### 4.3: 修改配置文件
@@ -124,9 +124,9 @@ hashgardcli status
 
 当您看到 `catching_up` 是 `false`，表示节点的区块数据与 testnet 已经同步完成，否则表示它仍在同步。
 
-您现在已经成功运行了一个 Hashgard 完整节点并接入了 sif-5001 测试网。
+您现在已经成功运行了一个 Hashgard 完整节点并接入了 sif-6000 测试网。
 
-您已经完成了测试网第一个激励任务，接下来您可以根据 [激励任务说明](https://github.com/hashgard/testnets/tree/master/sif_CN/sif-5001) 参与后续步骤完成其它激励任务。
+您已经完成了测试网第一个激励任务，接下来您可以根据 [激励任务说明](https://github.com/hashgard/testnets/tree/master/sif_CN/sif-6000) 参与后续步骤完成其它激励任务。
 
 ## 后续步骤
 
@@ -136,16 +136,16 @@ hashgardcli status
 
 如果您参与了 genesis 文件生成过程，那么一旦完全同步，您的节点就会成为验证人中的一员。
 
-如果您错过了 genesis 文件生成过程，您仍然可以将您的节点升级成为 Hashgard 验证人节点，继续进入 [创建验证人节点](创建验证人节点.md)。
+如果您错过了 genesis 文件生成过程，您仍然可以将您的节点升级成为 Hashgard 验证人节点，继续进入 [创建验证人节点](create-validator.md)。
 
-您也可以[委托](委托代币.md)，[解绑](解绑委托.md)，[再委托](重新委托.md)
+您也可以[委托](delegate.md)，[解绑](unbond.md，[再委托](redelegate.md)
 
 ### 步骤 6：链式治理
 
 去中心化的链式治理，您可以在链上发起提案，也可参与到投票过程中
 
-如何发起提案？进入[发起治理提案](提交在线治理.md)
+如何发起提案？进入[发起治理提案](submit-proposal.md)
 
-提案时需要进入激活状态才能发起投票，在此之前，您可以进行[抵押存款](抵押存款.md)
+提案时需要进入激活状态才能发起投票，在此之前，您可以进行[抵押存款](deposit.md)
 
-对于被正式被激活的提案，您可以对其进行[投票](提案投票.md)
+对于被正式被激活的提案，您可以对其进行[投票](vote.md)

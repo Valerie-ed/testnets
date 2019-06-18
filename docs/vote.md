@@ -8,7 +8,7 @@ After the proposal is officially activated, you can vote on this proposal
 hashgardcli gov proposal ${proposal_id}
   ```
 
- In the result, ``` proposal_status ``` is the status of this proposal.
+ In the result, `proposal_status` is the status of this proposal.
 
  If you are in the voting state, you can vote by doing the following:
 

@@ -11,9 +11,9 @@
 
   
 
-` proposal-id` is the id number of the proposal
+`proposal-id` is the id number of the proposal
 
-` deposit-amount` is the amount of deposit required
+`deposit-amount` is the amount of deposit required
 
 After making the deposit, you can view the deposit details of the proposal.
 

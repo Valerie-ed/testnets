@@ -92,7 +92,7 @@
 
 Submit yout proof under [issue](https://github.com/hashgard/testnets/issues/24) with format below：
 
-```
+```plain
 GitHub ID: XXXX
 Task 1: Node URL
 Task 2: Tx Hash / Tx Hash

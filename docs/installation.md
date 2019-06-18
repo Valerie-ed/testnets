@@ -50,7 +50,7 @@ source ~/.bash_profile
 
 Make sure you have installed `git`：
 
-```
+```plain
 apt-get install git -y
 ```
 
@@ -98,7 +98,7 @@ hashgardcli help
 
 If they are installed successfully, you'll see the output:
 
-```
+```plain
 Hashgard Daemon (server)
 
 Usage:
