@@ -59,6 +59,7 @@ Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tr
 | 21   | make deposit (during deposit period)       | Deposit 100 token A to deposit box A with wallet C (make sure enough balance of token A in Wallet C) ,see`hashgardcli box deposit-to --help`| Submit transaction tx   | 100  |
 | 22  | (After the deposit period)withdraw     | Use Wallet C to withdraw tokens from Deposit Box A,`hashgardcli bank withdraw --help`  | Submit transaction tx | 100  |
 | Total |                            |                                                              |                   | 500  |
+
 Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tree/develop/docs/cli/hashgardcli/deposit)
 
 
@@ -69,7 +70,7 @@ Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tr
 | 22  | Create future payment box(with multiple accounts) | Create a future payment box A with 90 GARD with Wallet A，and pay 10 GARD/Wallet/period to Wallet C, Wallet D and Wallet E with 3 period, see`hashgardcli future create  --help`| Submit transaction tx | 100  |
 | 23  | deposit                    | Deposit 90 GARD to Box A with Wallet B，see`hashgardcli  future  inject  --help`| Submit transaction tx | 100  |
 | 22  | (After payment time)withdraw     | Use Wallet C to withdraw tokens from Deposit Box A,see`hashgardcli bank withdraw --help`  | Submit transaction tx | 100  |
-| Total |                            |                                                              |                 | 200  |
+| Total |                            |                                                              |                 | 300  |
 
 Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tree/develop/docs/cli/hashgardcli/future)
 
@@ -77,15 +78,16 @@ Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tr
 
 | #    | Tasks | Details                  | Proof            | Score |
 | ---- | -------- | ---------------------- | --------------- | ---- |
-| 24  | Lock Boc | Create a Lock box that has 100 Token A with Wallet A ,see`hashgardcli lock create --help` | Submit transaction tx | 100  |
-| Total |          |            |                 | 100  |
+|  24  | Lock Boc | Create a Lock box that has 100 Token A with Wallet A ,see`hashgardcli lock create --help` | Submit transaction tx | 100  |
+|  Total |          |            |                 | 100  |
+
 Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tree/develop/docs/cli/hashgardcli/lock)
- 
-### 在线投票任务
+### Online voting tasks
 
 | #    | Tasks                   | Details                                                         | Proof            | Score |
-| ---- | -------------------------- | ------------------------------------------------------------ | --------------- | ---- |
+| ---- | -------------------------- | --------------------------------------- | --------------- | ---- |
 | 25 |  Voting | Proposal for a vote with proposal-id 1  |  Submit transaction tx | 100  |
+
 Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tree/develop/docs/cli/hashgardcli/gov)
 
 ### Online Status Task
@@ -97,7 +99,7 @@ Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tr
 
 
 
-### TotalScore 3150
+### TotalScore 3250
 
 ## How to Submit Proof
 
@@ -130,4 +132,5 @@ Task22:Tx Hash
 Task23:Tx Hash
 Task24Tx Hash
 Task25Tx Hash
+Task26Tx Hash
 ```
