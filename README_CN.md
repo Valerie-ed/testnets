@@ -17,5 +17,4 @@
 
 ## Testnet 状态更新日志
 
-详见：[Changelog](./CHANGELOG.md)
-
+详见：[Changelog](./CHANGELOG_CN.md)

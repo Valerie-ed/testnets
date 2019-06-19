@@ -10,7 +10,7 @@
 
 ### 步骤 1：在您的服务器上安装 Hashgard
 
-请参照 [hashgard 安装文档](hashgard安装文档.md) 安装 Hashgard。
+请参照 [hashgard 安装文档](installation.md) 安装 Hashgard。
 
 ### 步骤 2：创建钱包
 
@@ -53,8 +53,8 @@ hashgard init \
 cd ~/.hashgard/config/
 rm genesis.json
 rm config.toml
-wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-6000/config/config.toml
-wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-6000/config/genesis.json
+curl -O https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-6000/config/config.toml
+curl -O https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-6000/config/genesis.json
 ```
 
 #### 4.3: 修改配置文件

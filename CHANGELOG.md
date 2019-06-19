@@ -1,5 +1,8 @@
 # Testnet Changelog
 
+## June 20, 2019 - sif-6000 test network startup
+
+We published the sixth iteration of the test network, sif-6000
 
 
 ## May 20, 2019 - sif-5001 test network startup

@@ -57,6 +57,7 @@ Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tr
 | 19   | （Deposit box during releasing period）interest deposit | Deposit 10 token B to Deposit box A with wallet B, see`hashgardcli  deposit interest-injection --help`| Submit transaction tx   | 100  |
 | 20   | Withdraw interest (during releasing period) | Withdraw the interest with Wallet B and then deposit it back again,see`hashgardcli box interest-fetch --help` | Submit two transaction tx   | 100  |
 | 21   | make deposit (during deposit period)       | Deposit 100 token A to deposit box A with wallet C (make sure enough balance of token A in Wallet C) ,see`hashgardcli box deposit-to --help`| Submit transaction tx   | 100  |
+| 22  | (After the deposit period)withdraw     | Use Wallet C to withdraw tokens from Deposit Box A,`hashgardcli bank withdraw --help`  | Submit transaction tx | 100  |
 | Total |                            |                                                              |                   | 500  |
 Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tree/develop/docs/cli/hashgardcli/deposit)
 
@@ -67,6 +68,7 @@ Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tr
 | ---- | -------------------------- | ------------------------------------------------------------ | --------------- | ---- |
 | 22  | Create future payment box(with multiple accounts) | Create a future payment box A with 90 GARD with Wallet A，and pay 10 GARD/Wallet/period to Wallet C, Wallet D and Wallet E with 3 period, see`hashgardcli future create  --help`| Submit transaction tx | 100  |
 | 23  | deposit                    | Deposit 90 GARD to Box A with Wallet B，see`hashgardcli  future  inject  --help`| Submit transaction tx | 100  |
+| 22  | (After payment time)withdraw     | Use Wallet C to withdraw tokens from Deposit Box A,see`hashgardcli bank withdraw --help`  | Submit transaction tx | 100  |
 | Total |                            |                                                              |                 | 200  |
 
 Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tree/develop/docs/cli/hashgardcli/future)
@@ -75,7 +77,7 @@ Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tr
 
 | #    | Tasks | Details                                                         | Proof            | Score |
 | ---- | -------- | ------------------------------------------------------------ | --------------- | ---- |
-| 24  | Lock Boc | Create a Lock box that has 100 Token A with Wallet A ,see`hashgardcli box create-lock --help` | Submit transaction tx | 100  |
+| 24  | Lock Boc | Create a Lock box that has 100 Token A with Wallet A ,see`hashgardcli lock create --help` | Submit transaction tx | 100  |
 | Total |          |                                                              |                 | 100  |
 Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tree/develop/docs/cli/hashgardcli/lock)
 
