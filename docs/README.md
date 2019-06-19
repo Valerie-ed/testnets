@@ -67,8 +67,8 @@ Go to the hashgard config directory, replace the genesis and config files with t
 cd $HASHGARDHOME/config/
 rm genesis.json
 rm config.toml
-wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-5001/config/config.toml
-wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-5001/config/genesis.json
+curl -O https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-5001/config/config.toml
+curl -O https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-5001/config/genesis.json
 ```
 
 The default value of \$HASHGARDHOME in the above command is `~/.hashgard`，
