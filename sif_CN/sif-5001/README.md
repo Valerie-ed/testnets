@@ -20,8 +20,8 @@
 | ---- | ---------- | ------------------------------------------------------------ | --------------- | ---- |
 | 3    | 成为验证人 | 使用钱包 A 发送交易申请成为验证人, (在此之前，请确保您已经创建钱包，并领取了测试 token) [帮助文档](https://github.com/hashgard/testnets/tree/master/docs_CN/create-validator.md) | 提交验证人地址  | 200  |
 | 4    | 委托       | 将钱包 B 执行 delegate 操作，将 10 gard 委托给自己创建的验证人,[帮助文档](https://github.com/hashgard/testnets/tree/master/docs_CN/delegate.md) | 提交此次交易 tx | 100  |
-| 5    | 重新委托   | 钱包 B 通过 redelegate 操作，将委托的 10 gard 从自己创建的验证人转移至官方验证人(gardvaloper13fn2v2rstszureanek9aqvev6z8hzx0hty77wj),[帮助文档](https://github.com/hashgard/testnets/tree/master/docs_CN/redelegate.md) | 提交此次交易 tx | 100  |
-| 6    | 取消委托   | 钱包 B 通过 unbond 操作，取消委托，取回委托在官方验证人的 10 gard,[帮助文档](https://github.com/hashgard/testnets/tree/master/docs_CN/unbond.md) | 提交此次交易 tx | 100  |
+| 5    | 重新委托   | 钱包 B 通过 redelegate 操作，将委托的 10 gard 从自己创建的验证人转移至官方验证人(gardvaloper13fn2v2rstszureanek9aqvev6z8hzx0hty77wj),[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/stake/redelegate.md) | 提交此次交易 tx | 100  |
+| 6    | 取消委托   | 钱包 B 通过 unbond 操作，取消委托，取回委托在官方验证人的 10 gard,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/stake/unbond.md) | 提交此次交易 tx | 100  |
 | 总计 |            |                                                              |                 | 500  |
 
 
@@ -53,7 +53,7 @@
 
 | #    | 任务名称                   | 详情                                                         | 证明            | 积分 |
 | ---- | -------------------------- | ------------------------------------------------------------ | --------------- | ---- |
-| 18   | 创建存款盒子               | **用钱包 A 创建一笔存款目标 100 token A ，利息为 10 token B 的存款盒子 A**,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/box/create-deposit.md) | 提交此次交易 tx | 100  |
+| 18   | 创建存款盒子               | **用钱包 A 创建一笔存款目标 100 token A ，利息为 10 token B 的存款盒子 A**,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/deposit/create.md) | 提交此次交易 tx | 100  |
 | 19   | （存款盒子发行期）利息注入 | 用钱包 B 注入 10 token B 至存款盒子 A,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/box/interest-injection.md) | 提交次次交易 tx | 100  |
 | 20   | （存款盒子发行期）利息取回 | 用钱包 B 取回利息，并再此注入,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/deposit/interest-cancel.md) | 提交两次交易 tx | 100  |
 | 21   | (在存款吸纳期)存款         | 用钱包 C (请事先往钱包 C 打入余额）往存款盒子 A 存入 100 token A ,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/deposit/inject.md) | 提交此次交易 tx | 100  |

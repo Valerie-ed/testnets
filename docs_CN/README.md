@@ -138,14 +138,14 @@ hashgardcli status
 
 如果您错过了 genesis 文件生成过程，您仍然可以将您的节点升级成为 Hashgard 验证人节点，继续进入 [创建验证人节点](create-validator.md)。
 
-您也可以[委托](delegate.md)，[解绑](unbond.md，[再委托](redelegate.md)
+您也可以[委托](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/stake/delegate.md)，[解绑](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/stake/unbond.md)，[再委托](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/stake/redelegate.md)
 
 ### 步骤 6：链式治理
 
 去中心化的链式治理，您可以在链上发起提案，也可参与到投票过程中
 
-如何发起提案？进入[发起治理提案](submit-proposal.md)
+如何发起提案？进入[发起治理提案](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/gov/submit-proposal.md)
 
-提案时需要进入激活状态才能发起投票，在此之前，您可以进行[抵押存款](deposit.md)
+提案时需要进入激活状态才能发起投票，在此之前，您可以进行[抵押存款](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/gov/deposit.md)
 
-对于被正式被激活的提案，您可以对其进行[投票](vote.md)
+对于被正式被激活的提案，您可以对其进行[投票](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/gov/vote.md)
