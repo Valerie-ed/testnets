@@ -16,7 +16,7 @@
 | #    | 任务名称   | 详情                                                         | 证明            | 积分 |
 | ---- | ---------- | ------------------------------------------------------------ | --------------- | ---- |
 | 3    | 成为验证人 | 使用钱包 A 发送交易申请成为验证人, (在此之前，请确保您已经创建钱包，并领取了测试 token) [帮助文档](https://github.com/hashgard/testnets/tree/develop/docs_CN/create-validator.md) | 提交验证人地址  | 200  |
-| 4    | 委托       | 将钱包 B 执行 delegate 操作，将 10 gard 委托给自己创建的验证人,[帮助文档](https://github.com/hashgard/testnets/tree/develop/docs_CN/delegate.md) | 提交此次交易 tx | 100  |
+| 4    | 委托       | 将钱包 B 执行 delegate 操作，将 10 gard 委托给自己创建的验证人,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/stake/delegate.md) | 提交此次交易 tx | 100  |
 | 5    | 重新委托   | 钱包 B 通过 redelegate 操作，将委托的 10 gard 从自己创建的验证人转移至官方验证人(gardvaloper13fn2v2rstszureanek9aqvev6z8hzx0hty77wj),[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/stake/redelegate.md) | 提交此次交易 tx | 100  |
 | 6    | 取消委托   | 钱包 B 通过 unbond 操作，取消委托，取回委托在官方验证人的 10 gard,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/stake/unbond.md) | 提交此次交易 tx | 100  |
 | 总计 |            |                                                              |                 | 500  |
