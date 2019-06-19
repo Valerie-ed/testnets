@@ -74,7 +74,7 @@
 
 | 序号 |任务名称 |详情 | 证明|积分|
 |--|-- |-- |--| -- |
-| 25 |  进行投票 | 对 proposal-id 为 1 的投票进行提案   |  提交此次交易 tx | 100  |
+| 25 |  进行投票 | 查询可以投票的提案进行投票 [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/gov/README.md)   |  提交此次交易 tx | 100  |
 
 ### 在线任务
 
