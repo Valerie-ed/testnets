@@ -49,7 +49,7 @@
 | 20   | （存款盒子发行期）利息取回 | 用钱包 B 取回利息，并再此注入,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/deposit/interest-cancel.md) | 提交两次交易 tx | 100  |
 | 21   | (在存款吸纳期)存款         | 用钱包 C (请事先往钱包 C 打入余额）往存款盒子 A 存入 100 token A ,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/deposit/inject.md) | 提交此次交易 tx | 100  |
 | 22  | (存款结束期后)取款      | 用钱包 C 提取存款盒子 A 中存储的代币,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/bank/withdraw.md) | 提交此次交易 tx | 100  |
-| 总计 |                            |                                                              |                 | 600  |
+| 总计 |                            |                                                              |                 | 500  |
 
 
 
@@ -61,7 +61,7 @@
 | 23   | 创建（多账户）远期支付盒子 | 用钱包 A 创建一个总量为 90 GARD ，对钱包 C / D / E 钱包，分三期（每期每账户 10 GARD）进行远期支付的远期支付盒子 A ,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/future/create.md) | 提交此次交易 tx | 100  |
 | 24   | 存款                       | 用钱包 B 存入 90 GARD 至盒子 A，[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/deposit/inject.md) | 提交此次交易 tx | 100  |
 | 25  | (在支付到期)取款      | 用钱包 C 提取存款盒子 A 中存储的代币,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/bank/withdraw.md) | 提交此次交易 tx | 100  |
-| 总计 |                            |                                                              |                 | 200  |
+| 总计 |                            |                                                              |                 | 300  |
 
 ### 锁定盒子任务
 
@@ -86,7 +86,7 @@
 
 
 
-### 总计积分 3150
+### 总计积分 3250
 
 ## 如何提交完成证明
 
@@ -119,4 +119,5 @@ Task22:Tx Hash
 Task23:Tx Hash
 Task24Tx Hash
 Task25Tx Hash
+Task26Tx Hash
 ```
