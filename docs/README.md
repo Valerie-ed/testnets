@@ -67,8 +67,8 @@ Go to the hashgard config directory, replace the genesis and config files with t
 cd $HASHGARDHOME/config/
 rm genesis.json
 rm config.toml
-curl -O https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-5001/config/config.toml
-curl -O https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-5001/config/genesis.json
+curl -O https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-6000/config/config.toml
+curl -O https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-6000/config/genesis.json
 ```
 
 The default value of \$HASHGARDHOME in the above command is `~/.hashgard`，
@@ -140,7 +140,7 @@ The value of `catching_up` is `false`, means the block data of your node has bee
 
 Congratulations! You've started a Hashgard Node and joined Hashgard Testnet successfully。
 
-Now you've complished the first incentive task, you could try more tasks according to [Incentive Tasks of sif-5001 Testnet](https://github.com/hashgard/testnets/blob/master/sif/README.md).
+Now you've complished the first incentive task, you could try more tasks according to [Incentive Tasks of sif-6000 Testnet](https://github.com/hashgard/testnets/blob/master/sif/README.md).
 
 ## Next Steps
 
