@@ -79,6 +79,7 @@ Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tr
 | ---- | -------- | ---------------------- | --------------- | ---- |
 | 24  | Lock Boc | Create a Lock box that has 100 Token A with Wallet A ,see`hashgardcli lock create --help` | Submit transaction tx | 100  |
 | Total |          |            |                 | 100  |
+
 Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tree/develop/docs/cli/hashgardcli/lock)
  
 ### 在线投票任务
