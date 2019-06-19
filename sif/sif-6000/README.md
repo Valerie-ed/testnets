@@ -87,6 +87,7 @@ Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tr
 | #    | Tasks                   | Details                                                         | Proof            | Score |
 | ---- | -------------------------- | --------------------------------------- | --------------- | ---- |
 | 25 |  Voting | Proposal for a vote with proposal-id 1  |  Submit transaction tx | 100  |
+
 Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tree/develop/docs/cli/hashgardcli/gov)
 
 ### Online Status Task
@@ -132,4 +133,3 @@ Task23:Tx Hash
 Task24Tx Hash
 Task25Tx Hash
 ```
-
