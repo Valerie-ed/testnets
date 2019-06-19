@@ -13,7 +13,7 @@ Hashgard 公链基于 Cosmos-SDK 开发，Cosmos SDK 是使用 Go 语言开发�
 
 建议在 Linux 服务器中运行验证人节点，如果您在本地电脑上运行，那么当您的电脑休眠或关机时，您的验证人节点将会进入离线 jailed 状态。
 
-### 推荐配置：
+### 推荐配置
 
 - CPU：2Core
 - 内存：4GB
@@ -48,7 +48,7 @@ source ~/.bash_profile
 
 确保您的服务器上安装了 `git`：
 
-```
+```plain
 apt-get install git -y
 ```
 
@@ -95,7 +95,7 @@ hashgardcli help
 
 如果出现
 
-```
+```plain
 Hashgard Daemon (server)
 
 Usage:

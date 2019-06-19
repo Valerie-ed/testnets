@@ -5,15 +5,15 @@
 ```bash
 hashgardcli gov proposal ${proposal_id} 
 ```
-得到的结果中，``` proposal_status ```为此提案的状态
+得到的结果中，`proposal_status`为此提案的状态
 
-若在voting状态时，可通过如下操作进行投票：
+若在 voting 状态时，可通过如下操作进行投票：
 
 ```shell
 hashgardcli gov vote ${proposal_id} ${option} \
     --from ${your_wallet_name}
 ```
-需要指定投票的id```${proposal_id}```，和投票的选项```${option}```，可选项包括:  
+需要指定投票的 id```${proposal_id}```，和投票的选项```${option}```，可选项包括:  
 
 - Yes
 - No

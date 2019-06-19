@@ -14,7 +14,7 @@ You can install Hashgard according to [Hashgard Installation Guide](installation
 
 ### Step 2: Create Your Wallet
 
-```
+```plain
 hashgardcli keys add ${your_wallet_name}
 ```
 
@@ -24,7 +24,7 @@ It is the only way to recover your account if you ever forget your password.
 
 Check your wallets:
 
-```
+```plain
 hashgardcli keys list
 ```
 
@@ -32,14 +32,14 @@ hashgardcli keys list
 
 Configure the default node to connect to:
 
-```
+```plain
 hashgardcli config chain-id sif-5001
 hashgardcli config trust-node true
 ```
 
 Format the output:
 
-```
+```plain
 hashgardcli config indent true
 hashgardcli config output json
 ```

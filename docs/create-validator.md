@@ -1,6 +1,6 @@
-# Vote
+# Create validator
 
-### What is a Validator?
+### What is a Validator
 
 Validators are responsible for committing new blocks to the blockchain through voting.
 A validator's stake is slashed if they become unavailable or sign blocks at the same height.
@@ -12,11 +12,11 @@ Please read about Sentry Node Architecture to protect your node from DDOS attack
 >
 > And got some GARD using faucet command
 >
-> ```
+> ```plain
 > hashgardcli faucet send [address]
 > ```
 >
-> 
+>
 
 Your `gardvalconspub` can be used to create a new validator by staking GARD. You can find your validator pubkey by running:
 
@@ -36,7 +36,7 @@ hashgardcli stake create-validator \
 	  --amount=40gard \
 	  --moniker=${your_node_name}  \
 	  --min-self-delegation=10 \
-	  --fees=2gard 
+	  --fees=2gard
 ```
 
 > commission parameters
@@ -54,7 +54,7 @@ hashgardcli stake create-validator \
 You can get details of your validator:
 
 ```bash
-hashgardcli stake validator ${validator-address} 
+hashgardcli stake validator ${validator-address}
 ```
 
 You can confirm that you are in the validator set by using gardplorer:

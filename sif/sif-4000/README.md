@@ -74,7 +74,7 @@
 
 Please submit proof of completion under the following [issue](https://github.com/hashgard/testnets/issues/11) in the following format:
 
-```
+```plain
 GitHub ID: XXXX
 Task 1: Node URL
 Task 2: Tx Hash / Tx Hash

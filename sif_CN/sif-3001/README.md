@@ -17,7 +17,7 @@
 
 Comment in github [issue 5](https://github.com/hashgard/testnets/issues/5) to submit your proof, in the format below:
 
-```
+```plain
 GitHub ID: XXXX
 Task 1: Node URL
 Task 2: validator address
