@@ -152,14 +152,14 @@ If you are involved in the genesis file generation process, then your node will 
 
 If you missed it, you can upgrade your node to Validator Node according to [Create Validator](../docs/create-validator.md).
 
-You could try [Delegate](../docs/delegate.md), [Undelegate](../docs/unbond.md), [Redelegate](../docs/redelegate.md).
+You could try [Delegate](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/stake/delegate.md), [Undelegate](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/stake/unbond.md), [Redelegate](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/stake/redelegate.md).
 
 ### Step 6: Governance of Blockchain
 
 You can submit a proposal or vote to a proposal in Hashgard testnet.
 
-How to submit a proposal? see [Submit Proposal](../docs/submit-proposal.md).
+How to submit a proposal? see [Submit Proposal](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/gov/submit-proposal.md).
 
-Proposal needs to be activated to vote, see [Deposit](../docs/deposit.md) to activate a proposal.
+Proposal needs to be activated to vote, see [Deposit](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/gov/deposit.md) to activate a proposal.
 
-You could [Vote](../docs/vote.md) to an activated proposal.
+You could [Vote](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/gov/vote.md) to an activated proposal.
