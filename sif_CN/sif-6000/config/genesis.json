@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2019-06-20T03:16:57.20848188Z",
+  "genesis_time": "2019-06-20T10:17:55.993096684Z",
   "chain_id": "sif-6000",
   "consensus_params": {
     "block": {
@@ -313,6 +313,51 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
+                "delegator_address": "gard1k9wzeqwd7ytwrs3hr4erzc005p2ka4lhgx9xge",
+                "validator_address": "gardvaloper1k9wzeqwd7ytwrs3hr4erzc005p2ka4lh6ygwc5",
+                "pubkey": "gardvalconspub1zcjduepqmtlukctpegnr4664ek5n05xda3m7ywdr0hpfjypvvzddzfauyu5sag0hjh",
+                "value": {
+                  "denom": "agard",
+                  "amount": "20000000000000000000000000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "A43jxDuGDVefU2rx3vEKX+/LfKD6Ft3+iF501hp6Uwsx"
+              },
+              "signature": "SsgXhP2rijFwDe/AiShcYSqurC81AjAZ3xGF43JzDIAA/T+nVa5z8QTXog+oGU1+aTgtY7+M2hA1Jhg1HXX1bQ=="
+            }
+          ],
+          "memo": "18c164410e99268160be6078e1f778edab556810@47.52.85.173:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "bkfund",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
                 "delegator_address": "gard1whg9ffsqmd6tr5g3f6fyvh0f3v8my90k55jyxe",
                 "validator_address": "gardvaloper1whg9ffsqmd6tr5g3f6fyvh0f3v8my90kxklvk5",
                 "pubkey": "gardvalconspub1zcjduepq9qmuyzqr5k9jc9xdjsd2yqzgd9hz7u4h979cqw56swqthpt7kfxqp862nc",
@@ -337,51 +382,6 @@
             }
           ],
           "memo": "6da04a26b561580a9d56e12200beda2ea416628d@132.232.161.69:26656"
-        }
-      },
-      {
-        "type": "auth/StdTx",
-        "value": {
-          "msg": [
-            {
-              "type": "cosmos-sdk/MsgCreateValidator",
-              "value": {
-                "description": {
-                  "moniker": "bkfund",
-                  "identity": "",
-                  "website": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "gard1k9wzeqwd7ytwrs3hr4erzc005p2ka4lhgx9xge",
-                "validator_address": "gardvaloper1k9wzeqwd7ytwrs3hr4erzc005p2ka4lh6ygwc5",
-                "pubkey": "gardvalconspub1zcjduepq6tuk8d32kex64hz66yrs2yzly37egcse44zk2cc4rrj0yxe9t76qy5vq5y",
-                "value": {
-                  "denom": "agard",
-                  "amount": "20000000000000000000000000000"
-                }
-              }
-            }
-          ],
-          "fee": {
-            "amount": null,
-            "gas": "200000"
-          },
-          "signatures": [
-            {
-              "pub_key": {
-                "type": "tendermint/PubKeySecp256k1",
-                "value": "A43jxDuGDVefU2rx3vEKX+/LfKD6Ft3+iF501hp6Uwsx"
-              },
-              "signature": "kRrzBuuLC39qrZfwqp6OD0MJcwZ6oeCDG6zKhVGKb6ZZGA48YyWMaCsI0smizPFdVMY9uAlYukjU/BtqoK2ScQ=="
-            }
-          ],
-          "memo": "a6351adb518c5fd167b04d9834c7757e3dcf94dd@101.132.118.182:26656"
         }
       },
       {
