@@ -2,7 +2,7 @@
 
 This guide is intended for someone who is looking to setup a Hashgard Node to join Hashgard Testnet.
 
-> This document is written for testnet sif-5001, make sure your chain-id is sif-5001
+> This document is written for testnet sif-6000, make sure your chain-id is sif-6000
 
 > \${} for variables, you should replace it with your own value
 
@@ -14,7 +14,7 @@ You can install Hashgard according to [Hashgard Installation Guide](installation
 
 ### Step 2: Create Your Wallet
 
-```
+```plain
 hashgardcli keys add ${your_wallet_name}
 ```
 
@@ -24,7 +24,7 @@ It is the only way to recover your account if you ever forget your password.
 
 Check your wallets:
 
-```
+```plain
 hashgardcli keys list
 ```
 
@@ -32,14 +32,14 @@ hashgardcli keys list
 
 Configure the default node to connect to:
 
-```
+```plain
 hashgardcli config chain-id sif-5001
 hashgardcli config trust-node true
 ```
 
 Format the output:
 
-```
+```plain
 hashgardcli config indent true
 hashgardcli config output json
 ```
@@ -67,8 +67,8 @@ Go to the hashgard config directory, replace the genesis and config files with t
 cd $HASHGARDHOME/config/
 rm genesis.json
 rm config.toml
-wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-5001/config/config.toml
-wget https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-5001/config/genesis.json
+curl -O https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-6000/config/config.toml
+curl -O https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-6000/config/genesis.json
 ```
 
 The default value of \$HASHGARDHOME in the above command is `~/.hashgard`，
@@ -140,7 +140,7 @@ The value of `catching_up` is `false`, means the block data of your node has bee
 
 Congratulations! You've started a Hashgard Node and joined Hashgard Testnet successfully。
 
-Now you've complished the first incentive task, you could try more tasks according to [Incentive Tasks of sif-5001 Testnet](https://github.com/hashgard/testnets/blob/master/sif/README.md).
+Now you've complished the first incentive task, you could try more tasks according to [Incentive Tasks of sif-6000 Testnet](https://github.com/hashgard/testnets/blob/master/sif/README.md).
 
 ## Next Steps
 
@@ -152,14 +152,14 @@ If you are involved in the genesis file generation process, then your node will 
 
 If you missed it, you can upgrade your node to Validator Node according to [Create Validator](../docs/create-validator.md).
 
-You could try [Delegate](../docs/delegate.md), [Undelegate](../docs/unbond.md), [Redelegate](../docs/redelegate.md).
+You could try [Delegate](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/stake/delegate.md), [Undelegate](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/stake/unbond.md), [Redelegate](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/stake/redelegate.md).
 
 ### Step 6: Governance of Blockchain
 
 You can submit a proposal or vote to a proposal in Hashgard testnet.
 
-How to submit a proposal? see [Submit Proposal](../docs/submit-proposal.md).
+How to submit a proposal? see [Submit Proposal](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/gov/submit-proposal.md).
 
-Proposal needs to be activated to vote, see [Deposit](../docs/deposit.md) to activate a proposal.
+Proposal needs to be activated to vote, see [Deposit](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/gov/deposit.md) to activate a proposal.
 
-You could [Vote](../docs/vote.md) to an activated proposal.
+You could [Vote](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/gov/vote.md) to an activated proposal.

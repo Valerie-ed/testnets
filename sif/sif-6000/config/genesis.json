@@ -1,0 +1,479 @@
+{
+  "genesis_time": "2019-06-20T10:17:55.993096684Z",
+  "chain_id": "sif-6000",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "accounts": [
+      {
+        "address": "gard1k9wzeqwd7ytwrs3hr4erzc005p2ka4lhgx9xge",
+        "coins": [
+          {
+            "denom": "agard",
+            "amount": "20000000000000000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "gard1457qyf93ljsh2ep00uc66djd3n95fljk7y492k",
+        "coins": [
+          {
+            "denom": "agard",
+            "amount": "20000000000000000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "gard1whg9ffsqmd6tr5g3f6fyvh0f3v8my90k55jyxe",
+        "coins": [
+          {
+            "denom": "agard",
+            "amount": "20000000000000000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "gard15gs6275hzxx9nlqwxm9h4208x29sqraq867s2w",
+        "coins": [
+          {
+            "denom": "agard",
+            "amount": "20000000000000000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "gard1s6auwlcevspesynw44vx23e3zhuz7as9ulz56l",
+        "coins": [
+          {
+            "denom": "agard",
+            "amount": "10000000000000000000000000000"
+          },
+          {
+            "denom": "apple",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "gard1j2znq44kdk2t8kxznlppl0x0j940y62yadeua8",
+        "coins": [
+          {
+            "denom": "agard",
+            "amount": "10000000000000000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      }
+    ],
+    "auth": {
+      "collected_fees": null,
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      }
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "staking": {
+      "pool": {
+        "not_bonded_tokens": "100000000000000000000000000000",
+        "bonded_tokens": "0"
+      },
+      "params": {
+        "unbonding_time": "600000000000",
+        "max_validators": 100,
+        "max_entries": 7,
+        "bond_denom": "agard"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "mint": {
+      "minter": {
+        "mint_denom": "agard",
+        "blocks_per_year": "6311520"
+      },
+      "params": {
+        "inflation": "0.080000000000000000",
+        "inflation_base": "100000000000000000000000000000",
+        "foundation_address": "gard1j2znq44kdk2t8kxznlppl0x0j940y62yadeua8"
+      }
+    },
+    "distribution": {
+      "fee_pool": {
+        "community_pool": null
+      },
+      "community_tax": "0.020000000000000000",
+      "base_proposer_reward": "0.010000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": null,
+      "previous_proposer": "",
+      "outstanding_rewards": null,
+      "validator_accumulated_commissions": null,
+      "validator_historical_rewards": null,
+      "validator_current_rewards": null,
+      "delegator_starting_infos": null,
+      "validator_slash_events": null
+    },
+    "slashing": {
+      "params": {
+        "max_evidence_age": "120000000000",
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": null,
+      "votes": null,
+      "proposals": null,
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "agard",
+            "amount": "10000000000000000000"
+          }
+        ],
+        "max_deposit_period": "172800000000000"
+      },
+      "voting_params": {
+        "voting_period": "1728000000000000"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto": "0.334000000000000000"
+      }
+    },
+    "exchange": {
+      "starting_id": "1",
+      "orders": null
+    },
+    "issue": {
+      "starting_issue_id": "100000000000",
+      "issues": null,
+      "params": {
+        "issue_fee": {
+          "denom": "agard",
+          "amount": "20000000000000000000000"
+        },
+        "mint_fee": {
+          "denom": "agard",
+          "amount": "10000000000000000000000"
+        },
+        "freeze_fee": {
+          "denom": "agard",
+          "amount": "20000000000000000000000"
+        },
+        "unfreeze_fee": {
+          "denom": "agard",
+          "amount": "20000000000000000000000"
+        },
+        "burn_fee": {
+          "denom": "agard",
+          "amount": "10000000000000000000000"
+        },
+        "burn_from_fee": {
+          "denom": "agard",
+          "amount": "10000000000000000000000"
+        },
+        "transfer_owner_fee": {
+          "denom": "agard",
+          "amount": "20000000000000000000000"
+        },
+        "describe_fee": {
+          "denom": "agard",
+          "amount": "4000000000000000000000"
+        }
+      }
+    },
+    "box": {
+      "starting_lock_id": "10000000000000",
+      "starting_deposit_id": "10000000000000",
+      "starting_future_id": "10000000000000",
+      "lock_boxs": null,
+      "deposit_boxs": null,
+      "future_boxs": null,
+      "params": {
+        "lock_create_fee": {
+          "denom": "agard",
+          "amount": "1000000000000000000000"
+        },
+        "deposit_box_create_fee": {
+          "denom": "agard",
+          "amount": "10000000000000000000000"
+        },
+        "future_box_create_fee": {
+          "denom": "agard",
+          "amount": "10000000000000000000000"
+        },
+        "disable_feature_fee": {
+          "denom": "agard",
+          "amount": "10000000000000000000000"
+        },
+        "describe_fee": {
+          "denom": "agard",
+          "amount": "10000000000000000000000"
+        }
+      }
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "agard",
+        "amount": "1000000000000000000000"
+      }
+    },
+    "gentxs": [
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "bkfund",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "gard1k9wzeqwd7ytwrs3hr4erzc005p2ka4lhgx9xge",
+                "validator_address": "gardvaloper1k9wzeqwd7ytwrs3hr4erzc005p2ka4lh6ygwc5",
+                "pubkey": "gardvalconspub1zcjduepqmtlukctpegnr4664ek5n05xda3m7ywdr0hpfjypvvzddzfauyu5sag0hjh",
+                "value": {
+                  "denom": "agard",
+                  "amount": "20000000000000000000000000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "A43jxDuGDVefU2rx3vEKX+/LfKD6Ft3+iF501hp6Uwsx"
+              },
+              "signature": "SsgXhP2rijFwDe/AiShcYSqurC81AjAZ3xGF43JzDIAA/T+nVa5z8QTXog+oGU1+aTgtY7+M2hA1Jhg1HXX1bQ=="
+            }
+          ],
+          "memo": "18c164410e99268160be6078e1f778edab556810@47.52.85.173:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "bkfund",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "gard1whg9ffsqmd6tr5g3f6fyvh0f3v8my90k55jyxe",
+                "validator_address": "gardvaloper1whg9ffsqmd6tr5g3f6fyvh0f3v8my90kxklvk5",
+                "pubkey": "gardvalconspub1zcjduepq9qmuyzqr5k9jc9xdjsd2yqzgd9hz7u4h979cqw56swqthpt7kfxqp862nc",
+                "value": {
+                  "denom": "agard",
+                  "amount": "20000000000000000000000000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "Anqr+VB+eRlvL6ZQ1DuYUt2W1xsBwbrCHKJYtVGO7b4Y"
+              },
+              "signature": "JFQBJ7FjfWhEO5UKkNdBfjUc1Yb3onAdYUMR6lNSRbNTW4C1esA7yKb3YNrI5lbI16O9ffWuZ5NxBYtmk39H+A=="
+            }
+          ],
+          "memo": "6da04a26b561580a9d56e12200beda2ea416628d@132.232.161.69:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "bkfund",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "gard15gs6275hzxx9nlqwxm9h4208x29sqraq867s2w",
+                "validator_address": "gardvaloper15gs6275hzxx9nlqwxm9h4208x29sqraq4cnc6r",
+                "pubkey": "gardvalconspub1zcjduepqv7m8y7pkzyprx0ydmpmjl2gwzdpq0zkx4cp4alcqu3q3hvvsrzvsa4cwzn",
+                "value": {
+                  "denom": "agard",
+                  "amount": "20000000000000000000000000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AsGBdGpIDDj8qZ7DODu/m/aoC6CPTdMQyflIk4mI7dQa"
+              },
+              "signature": "ZyDHsM1KSKgU/Aiz04oY/bJi9MN+RfMFol4/hzRHbG0G2GWqtXo9QRpAHtckXeCyKCjfcBPVE43gDkVkuuWxtA=="
+            }
+          ],
+          "memo": "ad44fa64d1495962727003ff852818fd1d422d53@47.52.53.79:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "bkfund",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "gard1457qyf93ljsh2ep00uc66djd3n95fljk7y492k",
+                "validator_address": "gardvaloper1457qyf93ljsh2ep00uc66djd3n95fljkvxcd6m",
+                "pubkey": "gardvalconspub1zcjduepqhju0fusgvtjyafl04kq83adncxwwr7wdf4q5uv3eqdrcrmsw9z0s9vu5aq",
+                "value": {
+                  "denom": "agard",
+                  "amount": "20000000000000000000000000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "A3d7wnwpnowMIqyG7Bx8L5oUxuo4llCpRyeuQ+uUgGxP"
+              },
+              "signature": "aeF2307ynjDzMM5XgrhF4h/9MHmlsojoZxB74jkKYmgGE4LKp+HCBOPLKF8CMEDVJnWu6SzDdcwWd6LI1hqoFQ=="
+            }
+          ],
+          "memo": "c4cea8edfdf8ca581f12212e90decc6dd7818b0b@106.12.132.153:26656"
+        }
+      }
+    ]
+  }
+}

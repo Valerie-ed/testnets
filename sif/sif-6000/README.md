@@ -1,12 +1,12 @@
-# sif-5001 task
+# sif-6000 task
 
-## sif-5001 Task List
+## sif-6000 Task List
 
 ### Basic Tasks
 
 | #    | Tasks                  | Details                                                        |Proof                                                           | Score |
 | ---- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
-| 1    | Run a full node          | Run a full node, join testnet, and create six wallets (named Wallet A / B / C / D / E / F ,[doc](https://github.com/hashgard/testnets/blob/master/docs/README.md) | submit nodes IP, and ensure that the corresponding port is accessible, the default is 26657 port, http://${your_ip}:26657/status | 200  |
+| 1    | Run a full node          | Run a full node, join testnet, and create six wallets (named Wallet A / B / C / D / E / F ,[doc](https://github.com/hashgard/testnets/blob/develop/docs/README.md) | submit nodes IP, and ensure that the corresponding port is accessible, the default is 26657 port, http://${your_ip}:26657/status | 200  |
 | 2    | Get the test token from the faucet | Get GARD and apple from faucet to wallet A and wallet B ,see```hashgardcli keys --help``` | Submit two transaction tx                                              | 100  |
 | Total |                          |                                                              |                                                              | 300  |
 
@@ -18,10 +18,10 @@
 
 | #    | Tasks   | Details                                                         | Proof            | Score |
 | ---- | ---------- | ------------------------------------------------------------ | --------------- | ---- |
-| 3    | Become a validator | Send a transaction to apply to be a validator with Wallet A (make sure you have created a wallet and got test tokens before this step) [doc](https://github.com/hashgard/testnets/blob/master/docs/create-validator.md) | Submit validator address | 200  |
-| 4    | Delegation       | Delegate 10 GARD to the validator you created with Wallet B ,[doc](https://github.com/hashgard/testnets/blob/master/docs/delegate.md) | Submit transaction tx | 100  |
-| 5    | Redelegate   | With Wallet B, tranfer the 10 GARD you delegated to your own validator to the official validator(gardvaloper13fn2v2rstszureanek9aqvev6z8hzx0hty77wj) with redelegate function,[doc](https://github.com/hashgard/testnets/blob/master/docs/redelegate.md) | Submit transaction tx | 100  |
-| 6    | Cancel delegation  | With Wallet B, get the 10 GARD back from official validator by canceling delegation through unbond function,[doc](https://github.com/hashgard/testnets/blob/master/docs/unbond.md) | Submit transaction tx | 100  |
+| 3    | Become a validator | Send a transaction to apply to be a validator with Wallet A (make sure you have created a wallet and got test tokens before this step) [doc](https://github.com/hashgard/testnets/blob/develop/docs/create-validator.md) | Submit validator address | 200  |
+| 4    | Delegation       | Delegate 10 GARD to the validator you created with Wallet B ,[doc](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/stake/delegate.md) | Submit transaction tx | 100  |
+| 5    | Redelegate   | With Wallet B, tranfer the 10 GARD you delegated to your own validator to the Other  validator[list](https://www.gardplorer.io/validator) with redelegate function,[doc](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/stake/redelegate.md) | Submit transaction tx | 100  |
+| 6    | Cancel delegation  | With Wallet B, get the 10 GARD back from official validator by canceling delegation through unbond function,[doc](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/stake/unbond.md) | Submit transaction tx | 100  |
 | Total |            |                                                              |                 | 500  |
 
 
@@ -45,7 +45,7 @@
 | 17   | transfer owner           | Transfer the ownership of Token A which is Wallet A to Wallet B, see`hashgardcli issue transfer-ownership --hlep` | Submit transaction tx | 100  |
 | Total |                     |                                                              |                 | 1150 |
 
-
+Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tree/develop/docs/cli/hashgardcli/issue)
 
 
 
@@ -54,45 +54,58 @@
 | #    | Tasks                   | Details                                                         | Proof              | Score |
 | ---- | -------------------------- | ------------------------------------------------------------ | ----------------- | ---- |
 | 18   | Create Deposit box               | **Create a Deposit box A with targeted deposit of 100 Token A with Wallet A, and interest is 100 token B**,see`hashgardcli box create-deposit --help` | Submit transaction tx   | 100  |
-| 19   | （Deposit box during releasing period）interest deposit | Deposit 10 token B to Deposit box A with wallet B, see`hashgardcli box interest-injection --help`| Submit transaction tx   | 100  |
+| 19   | （Deposit box during releasing period）interest deposit | Deposit 10 token B to Deposit box A with wallet B, see`hashgardcli  deposit interest-injection --help`| Submit transaction tx   | 100  |
 | 20   | Withdraw interest (during releasing period) | Withdraw the interest with Wallet B and then deposit it back again,see`hashgardcli box interest-fetch --help` | Submit two transaction tx   | 100  |
 | 21   | make deposit (during deposit period)       | Deposit 100 token A to deposit box A with wallet C (make sure enough balance of token A in Wallet C) ,see`hashgardcli box deposit-to --help`| Submit transaction tx   | 100  |
+| 22  | (After the deposit period)withdraw     | Use Wallet C to withdraw tokens from Deposit Box A,`hashgardcli bank withdraw --help`  | Submit transaction tx | 100  |
 | Total |                            |                                                              |                   | 500  |
 
+Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tree/develop/docs/cli/hashgardcli/deposit)
 
 
 ### Future Payment Box Tasks
 
-
 | #    | Tasks                   | Details                                                         | Proof            | Score |
 | ---- | -------------------------- | ------------------------------------------------------------ | --------------- | ---- |
-| 22  | Create future payment box(with multiple accounts) | Create a future payment box A with 90 GARD with Wallet A，and pay 10 GARD/Wallet/period to Wallet C, Wallet D and Wallet E with 3 period, see`hashgardcli box create-future --help`| Submit transaction tx | 100  |
-| 23  | deposit                    | Deposit 90 GARD to Box A with Wallet B，see`hashgardcli box deposit-to --help`| Submit transaction tx | 100  |
-| Total |                            |                                                              |                 | 200  |
+| 22  | Create future payment box(with multiple accounts) | Create a future payment box A with 90 GARD with Wallet A，and pay 10 GARD/Wallet/period to Wallet C, Wallet D and Wallet E with 3 period, see`hashgardcli future create  --help`| Submit transaction tx | 100  |
+| 23  | deposit                    | Deposit 90 GARD to Box A with Wallet B，see`hashgardcli  future  inject  --help`| Submit transaction tx | 100  |
+| 22  | (After payment time)withdraw     | Use Wallet C to withdraw tokens from Deposit Box A,see`hashgardcli bank withdraw --help`  | Submit transaction tx | 100  |
+| Total |                            |                                                              |                 | 300  |
+
+Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tree/develop/docs/cli/hashgardcli/future)
 
 ### Lock Box Tasks
 
-| #    | Tasks | Details                                                         | Proof            | Score |
-| ---- | -------- | ------------------------------------------------------------ | --------------- | ---- |
-| 24  | Lock Boc | Create a Lock box that has 100 Token A with Wallet A ,see`hashgardcli box create-lock --help` | Submit transaction tx | 100  |
-| Total |          |                                                              |                 | 100  |
+| #    | Tasks | Details                  | Proof            | Score |
+| ---- | -------- | ---------------------- | --------------- | ---- |
+|  24  | Lock Boc | Create a Lock box that has 100 Token A with Wallet A ,see`hashgardcli lock create --help` | Submit transaction tx | 100  |
+|  Total |          |            |                 | 100  |
+
+Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tree/develop/docs/cli/hashgardcli/lock)
+### Online voting tasks
+
+| #    | Tasks                   | Details                                                         | Proof            | Score |
+| ---- | -------------------------- | --------------------------------------- | --------------- | ---- |
+| 25 |  Voting | Inquire for votable proposals to vote |  Submit transaction tx | 100  |
+
+Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tree/develop/docs/cli/hashgardcli/gov)
 
 ### Online Status Task
 
 | #    | Tasks | Details                                                         | Proof | Score |
 | ---- | -------- | ------------------------------------------------------------ | ---- | ---- |
-| 25  | Validator online | Keep being online since the task started till sif-5001 expired for at least 3 weeks with random snapshot |      | 300  |
+| 26  | Validator online | Keep being online since the task started till sif-6000 expired for at least 3 weeks with random snapshot |      | 300  |
 | Total |          |                                                              |      | 300  |
 
 
 
-### TotalScore 2950
+### TotalScore 3250
 
 ## How to Submit Proof
 
-Submit yout proof under [issue](https://github.com/hashgard/testnets/issues/24) with format below：
+Submit yout proof under [issue](https://github.com/hashgard/testnets/issues/32) with format below：
 
-```
+```plain
 GitHub ID: XXXX
 Task 1: Node URL
 Task 2: Tx Hash / Tx Hash
@@ -118,4 +131,6 @@ Task 21: Tx Hash
 Task22:Tx Hash
 Task23:Tx Hash
 Task24Tx Hash
+Task25Tx Hash
+Task26Tx Hash
 ```

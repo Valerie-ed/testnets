@@ -29,8 +29,8 @@
 | ----- | ------------------ | ------------------------------------------------------------ | ------------------------ | ----- |
 | 6     | Become a validator | Use Wallet A send a transaction to be a validator ( make sure you have created a wallet and got test tokens), [Help](https://github.com/hashgard/testnets/blob/master/docs/create-validator.md) | Submit validator address | 200   |
 | 7     | Delegate           | Delegate Wallet B and transfer 10 GARD to the validator you created,[Help](<https://github.com/hashgard/testnets/blob/master/docs/delegate.md>) | Submit transaction tx    | 100   |
-| 8     | Re-delegate        | Wallet B transfer delegated 10 GARD to official validator from validator created (gardvaloper17dvu8yt47mq0k0tj50rr46ke6yh4g8dzvvld6l),[Help](<https://github.com/hashgard/testnets/blob/master/docs/redelegate.md>) | Submit transaction tx    | 100   |
-| 9     | Cancel delegation  | Wallet B cancel delegation by unbond function to get 10 GARD back from official validator ,[Help](<https://github.com/hashgard/testnets/blob/master/docs/unbond.md>) | Submit transaction tx    | 100   |
+| 8     | Re-delegate        | Wallet B transfer delegated 10 GARD to official validator from validator created (gardvaloper17dvu8yt47mq0k0tj50rr46ke6yh4g8dzvvld6l),[Help](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/stake/redelegate.md) | Submit transaction tx    | 100   |
+| 9     | Cancel delegation  | Wallet B cancel delegation by unbond function to get 10 GARD back from official validator ,[Help](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/stake/unbond.md) | Submit transaction tx    | 100   |
 | Total |                    |                                                              |                          | 500   |
 
 
@@ -39,8 +39,8 @@
 
 | #     | Tasks             | Details                                                      | Proof                 | Score |
 | ----- | ----------------- | ------------------------------------------------------------ | --------------------- | ----- |
-| 10    | Submit a proposal | Use Wallet A to submit a proposal and deposit 10 gard ,[Help](https://github.com/hashgard/testnets/blob/master/docs/submit-proposal.md) | Submit proposal id    | 100   |
-| 11    | Vote              | Vote positive on proposals created by yourself by Wallet A, and vote negative with Wallet B ,~~[Help](<https://github.com/hashgard/testnets/blob/master/docs/vote.md>) | Submit transaction tx | 100   |
+| 10    | Submit a proposal | Use Wallet A to submit a proposal and deposit 10 gard ,[Help](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/gov/submit-proposal.md) | Submit proposal id    | 100   |
+| 11    | Vote              | Vote positive on proposals created by yourself by Wallet A, and vote negative with Wallet B ,~~[Help](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/gov/vote.md) | Submit transaction tx | 100   |
 | Total |                   |                                                              |                       | 200   |
 
 
@@ -74,13 +74,13 @@
 
 Please submit proof of completion under the following [issue](https://github.com/hashgard/testnets/issues/11) in the following format:
 
-```
+```plain
 GitHub ID: XXXX
 Task 1: Node URL
 Task 2: Tx Hash / Tx Hash
 Task 3: Tx Hash
 Task 4: Tx Hash
-Task 5: 
+Task 5:
 Task 6: validator address
 Task 7: Tx Hash
 Task 8: Tx Hash
