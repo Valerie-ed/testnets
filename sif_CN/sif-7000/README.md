@@ -87,12 +87,12 @@
 ### 强制地址转入备注
 | 序号 |任务名称 |详情 | 证明|积分|
 |--|-- |-- |--| -- |
-| 30 |  设置备注 | 设置 A 地址转入备注为 true [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/keys//flag-required.md)   |  提交此次交易 tx | 100  |
+| 30 |  设置备注 | 设置 A 地址转入备注为 true [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/keys/flag-required.md)   |  提交此次交易 tx | 100  |
 | 31   | 查询   | 对 A 地址进行交易备注查询  [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/keys/flag-required-query.md)  |    |   |
-| 32   | 转账  | 使用 B 地址对 A 进行转账 [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/bank/send.md)  | 此结果为失败 |  |
+| 32   | 转账  | 使用 B 地址对 A 进行转账并填写memo信息   [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/bank/send.md)  | 提交此次交易 tx | 100 |
 | 33 |  设置备注 | 设置 A 地址转入备注为 false [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/keys/flag-required.md)   |  提交此次交易 tx | 100  |
 | 34   | 转账  | 使用 B 地址对 A 进行转账 [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/bank/send.md)  | 提交交易hash | 100 |
-| 总计 |          |                                                              |                 | 300 |
+| 总计 |          |                                                              |                 | 400 |
 
 
 ### 在线任务
@@ -104,7 +104,7 @@
 
 
 
-### 总计积分 3650
+### 总计积分 3750
 
 ## 如何提交完成证明
 
@@ -143,7 +143,7 @@ Task28Tx Hash
 Task29
 Task30Tx Hash
 Task31
-Task32
+Task32Tx Hash
 Task33Tx Hash
 Task34Tx Hash
 Task35Tx Hash
