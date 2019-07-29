@@ -1,6 +1,6 @@
-# sif-6000 task
+# sif-7000 task
 
-## sif-6000 Task List
+## sif-7000 Task List
 
 ### Basic Tasks
 
@@ -111,7 +111,7 @@ Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tr
 
 | #    | Tasks | Details                  | Proof            | Score |
 | ---- | -------- | ------------------------------------------------------------ | ---- | ---- |
-| 35  | Validator online | Keep being online since the task started till sif-6000 expired for at least 3 weeks with random snapshot |      | 300  |
+| 35  | Validator online | Keep being online since the task started till sif-7000 expired for at least 3 weeks with random snapshot |      | 300  |
 | Total |          |                                                              |      | 300  |
 
 
