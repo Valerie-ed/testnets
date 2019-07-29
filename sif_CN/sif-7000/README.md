@@ -91,7 +91,7 @@
 | 31   | 查询   | 对 A 地址进行交易备注查询  [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/keys/flag-required-query.md)  |    |   |
 | 32   | 转账  | 使用 B 地址对 A 进行转账并填写memo信息   [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/bank/send.md)  | 提交此次交易 tx | 100 |
 | 33 |  设置备注 | 设置 A 地址转入备注为 false [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/keys/flag-required.md)   |  提交此次交易 tx | 100  |
-| 34   | 转账  | 使用 B 地址对 A 进行转账 [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/bank/send.md)  | 提交交易hash | 100 |
+| 34   | 转账  | 使用 B 地址对 A 进行转账 [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/bank/send.md)  | 提交此次交易 tx | 100 |
 | 总计 |          |                                                              |                 | 400 |
 
 
