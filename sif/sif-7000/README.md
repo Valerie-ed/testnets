@@ -67,9 +67,9 @@ Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tr
 
 | #    | Tasks                   | Details                                                         | Proof            | Score |
 | ---- | -------------------------- | ------------------------------------------------------------ | --------------- | ---- |
-| 22  | Create future payment box(with multiple accounts) | Create a future payment box A with 90 GARD with Wallet A，and pay 10 GARD/Wallet/period to Wallet C, Wallet D and Wallet E with 3 period, see`hashgardcli future create  --help`| Submit transaction tx | 100  |
-| 23  | deposit                    | Deposit 90 GARD to Box A with Wallet B，see`hashgardcli  future  inject  --help`| Submit transaction tx | 100  |
-| 22  | (After payment time)withdraw     | Use Wallet C to withdraw tokens from Deposit Box A,see`hashgardcli bank withdraw --help`  | Submit transaction tx | 100  |
+| 23  | Create future payment box(with multiple accounts) | Create a future payment box A with 90 GARD with Wallet A，and pay 10 GARD/Wallet/period to Wallet C, Wallet D and Wallet E with 3 period, see`hashgardcli future create  --help`| Submit transaction tx | 100  |
+| 24  | deposit                    | Deposit 90 GARD to Box A with Wallet B，see`hashgardcli  future  inject  --help`| Submit transaction tx | 100  |
+| 25  | (After payment time)withdraw     | Use Wallet C to withdraw tokens from Deposit Box A,see`hashgardcli bank withdraw --help`  | Submit transaction tx | 100  |
 | Total |                            |                                                              |                 | 300  |
 
 Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tree/develop/docs/cli/hashgardcli/future)
@@ -78,7 +78,7 @@ Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tr
 
 | #    | Tasks | Details                  | Proof            | Score |
 | ---- | -------- | ---------------------- | --------------- | ---- |
-|  24  | Lock Boc | Create a Lock box that has 100 Token A with Wallet A ,see`hashgardcli lock create --help` | Submit transaction tx | 100  |
+|  26 | Lock Boc | Create a Lock box that has 100 Token A with Wallet A ,see`hashgardcli lock create --help` | Submit transaction tx | 100  |
 |  Total |          |            |                 | 100  |
 
 Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tree/develop/docs/cli/hashgardcli/lock)
@@ -86,20 +86,37 @@ Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tr
 
 | #    | Tasks                   | Details                                                         | Proof            | Score |
 | ---- | -------------------------- | --------------------------------------- | --------------- | ---- |
-| 25 |  Voting | Inquire for votable proposals to vote |  Submit transaction tx | 100  |
+| 27 |  Voting | Inquire for votable proposals to vote |  Submit transaction tx | 100  |
 
 Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tree/develop/docs/cli/hashgardcli/gov)
 
+### record
+| #    | Tasks | Details                  | Proof            | Score |
+|--|-- |-- |--| -- |
+| 28|  recording | recording  [doc](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/record/create.md)   |  Submit transaction tx | 100  |
+| 29   |  Query record|  Query recorded hash [doc](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/record/query.md)     |  Submit transaction tx | 100   |
+| Total  |          |                                                              |                 | 200  |
+
+### Forced to fill in the transaction memo
+| #    | Tasks | Details                  | Proof            | Score |
+|--|-- |-- |--| -- |
+| 30 |  set memo |  set transfer memo status of address A to be true [doc](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/keys/flag-required.md)   |  Submit transaction tx | 100  |
+| 31   | Query address    | Query transfer memo status of address A  [doc](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/keys//flag-required-query.md)  |    |   |
+| 32   | transfer | transfer to address A by using address B  [doc](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/bank/send.md)  |   |  |
+| 33 |  set memo | set transfer memo status of address A to be false [doc](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/keys/flag-required.md)   |  Submit transaction tx | 100  |
+| 34   | transfer | transfer to address A by using address B  [doc](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/bank/send.md)  |  Submit transaction tx  | 100 |
+| Total  |          |                                                              |                 | 300 |
+
 ### Online Status Task
 
-| #    | Tasks | Details                                                         | Proof | Score |
+| #    | Tasks | Details                  | Proof            | Score |
 | ---- | -------- | ------------------------------------------------------------ | ---- | ---- |
-| 26  | Validator online | Keep being online since the task started till sif-6000 expired for at least 3 weeks with random snapshot |      | 300  |
+| 35  | Validator online | Keep being online since the task started till sif-6000 expired for at least 3 weeks with random snapshot |      | 300  |
 | Total |          |                                                              |      | 300  |
 
 
 
-### TotalScore 3250
+### TotalScore 3650
 
 ## How to Submit Proof
 
@@ -133,4 +150,13 @@ Task23:Tx Hash
 Task24Tx Hash
 Task25Tx Hash
 Task26Tx Hash
+Task27Tx Hash
+Task28Tx Hash
+Task29
+Task30Tx Hash
+Task31
+Task32
+Task33Tx Hash
+Task34Tx Hash
+Task35Tx Hash
 ```
