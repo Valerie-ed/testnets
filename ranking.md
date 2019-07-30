@@ -1,8 +1,8 @@
 # 积分榜
-| github用户名  | sif-1000  | sif-2000  |  sif-3000 |  sif-4000 |  sif-5001 |  sif-6000 | sif-7000|总计  |
+| github 用户名  | sif-1000  | sif-2000  |  sif-3000 |  sif-4000 |  sif-5001 |  sif-6000 | sif-7000|总计  |
 |--|---|---|---|---|---|---|---|--|
 | [StrawberryFlavor](https://github.com/StrawberryFlavor) | 320  | 400  |   |   |   |   |   |   |
-| [Fliex1989 ](https://github.com/Fliex1989)  |320| 400  |   |  2300 |  2950 |   |   |   |
+| [Fliex1989](https://github.com/Fliex1989)  |320| 400  |   |  2300 |  2950 |   |   |   |
 | [jeromelinjianlong](https://github.com/jeromelinjianlong) |  320 |  400 | 550  | 2300  |   |   |   |   |
 | [Peoley199](https://github.com/Peoley199) | 320  | 400  |  550 | 2300  | 2950  |   |   |   |
 | [wjdfx](https://github.com/wjdfx) |   |   | 550  |  2300 | 2950  |   |   |   |

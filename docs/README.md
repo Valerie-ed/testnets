@@ -2,7 +2,7 @@
 
 This guide is intended for someone who is looking to setup a Hashgard Node to join Hashgard Testnet.
 
-> This document is written for testnet sif-6000, make sure your chain-id is sif-6000
+> This document is written for testnet sif-7000, make sure your chain-id is sif-7000
 
 > \${} for variables, you should replace it with your own value
 
@@ -67,8 +67,8 @@ Go to the hashgard config directory, replace the genesis and config files with t
 cd $HASHGARDHOME/config/
 rm genesis.json
 rm config.toml
-curl -O https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-6000/config/config.toml
-curl -O https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-6000/config/genesis.json
+curl -O https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-7000/config/config.toml
+curl -O https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-7000/config/genesis.json
 ```
 
 The default value of \$HASHGARDHOME in the above command is `~/.hashgard`，
@@ -140,7 +140,7 @@ The value of `catching_up` is `false`, means the block data of your node has bee
 
 Congratulations! You've started a Hashgard Node and joined Hashgard Testnet successfully。
 
-Now you've complished the first incentive task, you could try more tasks according to [Incentive Tasks of sif-6000 Testnet](https://github.com/hashgard/testnets/blob/master/sif/README.md).
+Now you've complished the first incentive task, you could try more tasks according to [Incentive Tasks of sif-7000 Testnet](https://github.com/hashgard/testnets/blob/master/sif/README.md).
 
 ## Next Steps
 
