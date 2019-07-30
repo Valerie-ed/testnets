@@ -61,7 +61,8 @@
 | 23   | 创建（多账户）远期支付盒子 | 用钱包 A 创建一个总量为 90 GARD ，对钱包 C / D / E 钱包，分三期（每期每账户 10 GARD）进行远期支付的远期支付盒子 A ,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/future/create.md) | 提交此次交易 tx | 100  |
 | 24   | 存款                       | 用钱包 B 存入 90 GARD 至盒子 A，[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/deposit/inject.md) | 提交此次交易 tx | 100  |
 | 25  | (在支付到期)取款      | 用钱包 C 提取存款盒子 A 中存储的代币,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/bank/withdraw.md) | 提交此次交易 tx | 100  |
-| 总计 |                            |                                                              |                 | 300  |
+| 总计 |                         |                                                              |                 | 300  |
+
 远期支付的盒子因为有多期，请事先使用 hashgardcli bank account 查询账户的实际持有的盒子
 ### 锁定盒子任务
 
