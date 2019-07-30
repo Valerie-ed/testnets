@@ -101,7 +101,7 @@ Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tr
 | #    | Tasks | Details                  | Proof            | Score |
 |--|-- |-- |--| -- |
 | 30 |  set memo |  set transfer memo status of address A to be true [doc](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/keys/flag-required.md)   |  Submit transaction tx | 100  |
-| 31   | Query address    | Query transfer memo status of address A  [doc](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/keys/flag-required-query.md)  |    |    |
+| 31   | Query address    | Query transfer memo status of address A  [doc](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/keys/flag-required-query.md)  |    |    |
 | 32   | transfer | transfer to address A by using address B and fill out memo  [doc](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/bank/send.md)  | Submit transaction tx   |  100  |
 | 33 |  set memo | set transfer memo status of address A to be false [doc](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/keys/flag-required.md)   |  Submit transaction tx | 100  |
 | 34   | transfer | transfer to address A by using address B  [doc](https://github.com/hashgard/hashgard/blob/develop/docs/cli/hashgardcli/bank/send.md)  |  Submit transaction tx  | 100 |
