@@ -109,7 +109,7 @@
 
 ## 如何提交完成证明
 
-请在以下 [issue](https://github.com/hashgard/testnets/issues/32)下提交完成证明，格式如下：
+请在以下 [issue](https://github.com/hashgard/testnets/issues/42)下提交完成证明，格式如下：
 
 ```plain
 GitHub ID: XXXX

@@ -120,7 +120,7 @@ Please refer to the documentation.[link](https://github.com/hashgard/hashgard/tr
 
 ## How to Submit Proof
 
-Submit yout proof under [issue](https://github.com/hashgard/testnets/issues/32) with format below：
+Submit yout proof under [issue](https://github.com/hashgard/testnets/issues/42) with format below：
 
 ```plain
 GitHub ID: XXXX
