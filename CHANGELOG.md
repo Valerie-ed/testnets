@@ -1,4 +1,7 @@
 # Testnet Changelog
+## july 31, 2019 - sif-7000 test network startup
+
+We published the Seventh iteration of the test network, sif-7000
 
 ## June 20, 2019 - sif-6000 test network startup
 

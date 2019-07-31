@@ -2,7 +2,7 @@
 
 该文档目的是介绍如何运行一个 Hashgard 节点并加入当前的测试网。
 
-> 当前为 sif-6000 测试网络，请务必指定 chain-id = sif-6000
+> 当前为 sif-7000 测试网络，请务必指定 chain-id = sif-7000
 
 > \${}代表变量，需要你手动替换成你自己设定的值
 
@@ -21,7 +21,7 @@
 设置 hashgardcli 命令行客户端的默认连接节点：
 
 ```plain
-hashgardcli config chain-id sif-6000
+hashgardcli config chain-id sif-7000
 hashgardcli config trust-node true
 ```
 
@@ -38,7 +38,7 @@ hashgardcli config output json
 
 ```bash
 hashgard init \
-  --chain-id=sif-6000 \
+  --chain-id=sif-7000 \
   --moniker=${your_node_name}
 ```
 
@@ -47,14 +47,14 @@ hashgard init \
 
 #### 4.2：下载 genesis 和 config 文件
 
-进入 hashgard 的 config 文件路径，使用 sif-6000 测试网络的 genesis 和 config 文件替换掉 hashgard 初始化生成的对应文件。
+进入 hashgard 的 config 文件路径，使用 sif-7000 测试网络的 genesis 和 config 文件替换掉 hashgard 初始化生成的对应文件。
 
 ```bash
 cd ~/.hashgard/config/
 rm genesis.json
 rm config.toml
-curl -O https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-6000/config/config.toml
-curl -O https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-6000/config/genesis.json
+curl -O https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-7000/config/config.toml
+curl -O https://raw.githubusercontent.com/hashgard/testnets/master/sif/sif-7000/config/genesis.json
 ```
 
 #### 4.3: 修改配置文件
@@ -124,7 +124,7 @@ hashgardcli status
 
 当您看到 `catching_up` 是 `false`，表示节点的区块数据与 testnet 已经同步完成，否则表示它仍在同步。
 
-您现在已经成功运行了一个 Hashgard 完整节点并接入了 sif-6000 测试网。
+您现在已经成功运行了一个 Hashgard 完整节点并接入了 sif-7000 测试网。
 
 您已经完成了测试网第一个激励任务，接下来您可以根据 [激励任务说明](https://github.com/hashgard/testnets/tree/master/sif_CN/README.md) 参与后续步骤完成其它激励任务。
 

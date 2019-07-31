@@ -1,6 +1,6 @@
-# sif-6000 任务
+# sif-7000 任务
 
-## sif-6000 的任务列表
+## sif-7000 的任务列表
 
 ### 基础任务
 
@@ -18,7 +18,7 @@
 | 3    | 成为验证人 | 使用钱包 A 发送交易申请成为验证人, (在此之前，请确保您已经创建钱包，并领取了测试 token) [帮助文档](https://github.com/hashgard/testnets/tree/develop/docs_CN/create-validator.md) | 提交验证人地址  | 200  |
 | 4    | 委托       | 将钱包 B 执行 delegate 操作，将 10 gard 委托给自己创建的验证人,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/stake/delegate.md) | 提交此次交易 tx | 100  |
 | 5    | 重新委托   | 钱包 B 通过 redelegate 操作，将委托的 10 gard 从自己创建的验证人转移至其他验证人[地址查询](https://www.gardplorer.io/validator),[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/stake/redelegate.md) | 提交此次交易 tx | 100  |
-| 6    | 取消委托   | 钱包 B 通过 unbond 操作，取消委托，取回委托的 10 gard,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/stake/unbond.md) | 提交此次交易 tx | 100  |
+| 6    | 取消委托   | 钱包 B 通过 unbond 操作，取消委托，取回委托在官方验证人的 10 gard,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/stake/unbond.md) | 提交此次交易 tx | 100  |
 | 总计 |            |                                                              |                 | 500  |
 
 
@@ -61,8 +61,9 @@
 | 23   | 创建（多账户）远期支付盒子 | 用钱包 A 创建一个总量为 90 GARD ，对钱包 C / D / E 钱包，分三期（每期每账户 10 GARD）进行远期支付的远期支付盒子 A ,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/future/create.md) | 提交此次交易 tx | 100  |
 | 24   | 存款                       | 用钱包 B 存入 90 GARD 至盒子 A，[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/deposit/inject.md) | 提交此次交易 tx | 100  |
 | 25  | (在支付到期)取款      | 用钱包 C 提取存款盒子 A 中存储的代币,[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/bank/withdraw.md) | 提交此次交易 tx | 100  |
-| 总计 |                            |                                                              |                 | 300  |
+| 总计 |                         |                                                              |                 | 300  |
 
+远期支付的盒子因为有多期，请事先使用 hashgardcli bank account 查询账户的实际持有的盒子
 ### 锁定盒子任务
 
 | #    | 任务名称 | 详情                                                         | 证明            | 积分 |
@@ -74,23 +75,41 @@
 
 | 序号 |任务名称 |详情 | 证明|积分|
 |--|-- |-- |--| -- |
-| 25 |  进行投票 | 查询可以投票的提案进行投票 [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/gov/README.md)   |  提交此次交易 tx | 100  |
+| 27 |  进行投票 | 查询可以投票的提案进行投票 [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/gov/README.md)   |  提交此次交易 tx | 100  |
+| 总计 |          |                                                              |                 | 100  |
+
+### 存证功能
+| 序号 |任务名称 |详情 | 证明|积分|
+|--|-- |-- |--| -- |
+| 28|  进行存证 | 进行存证 [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/record/create.md)   |  提交此次交易 tx | 100  |
+| 29   |  进行查询 | 对已经存证的 hash 进行查询[帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/record/query.md)     |   | |
+| 总计 |          |                                                              |                 | 100  |
+
+### 强制地址转入备注
+| 序号 |任务名称 |详情 | 证明|积分|
+|--|-- |-- |--| -- |
+| 30 |  设置备注 | 设置 A 地址转入备注为 true [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/keys/flag-required.md)   |  提交此次交易 tx | 100  |
+| 31   | 查询   | 对 A 地址进行交易备注查询  [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/keys/flag-required-query.md)  |    |   |
+| 32   | 转账  | 使用 B 地址对 A 进行转账并填写 memo 信息   [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/bank/send.md)  | 提交此次交易 tx | 100 |
+| 33 |  设置备注 | 设置 A 地址转入备注为 false [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/keys/flag-required.md)   |  提交此次交易 tx | 100  |
+| 34   | 转账  | 使用 B 地址对 A 进行转账 [帮助文档](https://github.com/hashgard/hashgard/blob/develop/docs/translations/zh/cli/hashgardcli/bank/send.md)  | 提交此次交易 tx | 100 |
+| 总计 |          |                                                              |                 | 400 |
+
 
 ### 在线任务
-
 | #    | 任务名称 | 详情                                                         | 证明 | 积分 |
 | ---- | -------- | ------------------------------------------------------------ | ---- | ---- |
-| 26   | 节点在线 | 自提交任务后的至 sif-6000 下线期间一直保持在线（要求至少三周），采取随机快照的方式进行 |      | 300  |
+| 35   | 节点在线 | 自提交任务后的至 sif-7000 下线期间一直保持在线（要求至少三周），采取随机快照的方式进行 |      | 300  |
 | 总计 |          |                                                              |      | 300  |
 
 
 
 
-### 总计积分 3250
+### 总计积分 3750
 
 ## 如何提交完成证明
 
-请在以下 [issue](https://github.com/hashgard/testnets/issues/32)下提交完成证明，格式如下：
+请在以下 [issue](https://github.com/hashgard/testnets/issues/42)下提交完成证明，格式如下：
 
 ```plain
 GitHub ID: XXXX
@@ -120,4 +139,14 @@ Task23:Tx Hash
 Task24Tx Hash
 Task25Tx Hash
 Task26Tx Hash
+Task27Tx Hash
+Task28Tx Hash
+Task29
+Task30Tx Hash
+Task31
+Task32Tx Hash
+Task33Tx Hash
+Task34Tx Hash
+Task35Tx Hash
+
 ```

@@ -3,13 +3,13 @@
 
 A new generation of digital financial public bolckchain based on cosmos
 
-## How to join sif-6000 testnet
+## How to join sif-7000 testnet
 
 Please pay attention to this [document](../docs/README.md)
 
-## How to complete the sif-6000 test network task
+## How to complete the sif-7000 test network task
 
-Please follow this [document](../sif/sif-6000/README.md) to complete the task
+Please follow this [document](../sif/sif-7000/README.md) to complete the task
 
 
 
