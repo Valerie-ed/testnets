@@ -2,9 +2,9 @@
 
 This guide is intended for someone who is looking to setup a Hashgard Node to join Hashgard Testnet.
 
-> This document is written for testnet sif-7000, make sure your chain-id is sif-7000
+> This document is written for testnet sif-7000. Make sure your chain-id is sif-7000
 
-> \${} for variables, you should replace it with your own value
+> \${} represents for variables, you should replace it with your own value
 
 ## Run a Hashgard Node
 
